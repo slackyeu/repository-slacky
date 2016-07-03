@@ -1,0 +1,16 @@
+alsa-lib >= 1.0.27.2-i486-1
+glibc-solibs >= 2.17-i486-7
+libICE >= 1.0.8-i486-1
+libSM >= 1.2.2-i486-1
+libX11 >= 1.6.2-i486-1
+libXau >= 1.0.8-i486-1
+libXdamage >= 1.1.4-i486-1
+libXdmcp >= 1.1.1-i486-1
+libXext >= 1.3.2-i486-1
+libXfixes >= 5.0.1-i486-1
+libogg >= 1.3.0-i486-1
+libtheora >= 1.1.1-i486-1
+libvorbis >= 1.3.3-i486-1
+libxcb >= 1.9.1-i486-1
+util-linux >= 2.21.2-i486-6
+zlib >= 1.2.8-i486-1

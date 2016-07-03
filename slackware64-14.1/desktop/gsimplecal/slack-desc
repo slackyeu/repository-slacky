@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+          |-----handy-ruler------------------------------------------------------|
+gsimplecal: gsimplecal - A lightweight calendar
+gsimplecal:
+gsimplecal: gsimplecal is a lightweight calendar application written in C++ using 
+gsimplecal: GTK2.
+gsimplecal: It was intentionally made for use with tint2 panel in the openbox 
+gsimplecal: environment to be launched upon clock click, but of course it will 
+gsimplecal: work without it.
+gsimplecal:
+gsimplecal: Also, you can configure it to not only show the calendar, but also 
+gsimplecal: display multiple clocks for different world timezones.
+gsimplecal:

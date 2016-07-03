@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+             |-----handy-ruler------------------------------------------------------|
+libatomic_ops: Libatomic-op (A library for atomic operations)
+libatomic_ops:
+libatomic_ops: Libatomic-ops implements a large collection of operations, each one
+libatomic_ops: of which is a combination of an (optional) atomic memory operation,
+libatomic_ops: and a memory barrier. It also implements associated feature-test
+libatomic_ops: macros that determine whether a particular operation is available
+libatomic_ops: on the current target hardware (either directly or by synthesis).
+libatomic_ops: Libatomic-ops attempts to replace various existing files with
+libatomic_ops: similar goals, since they usually do not handle differences in
+libatomic_ops: memory barrier styles with sufficient generality.
+libatomic_ops:

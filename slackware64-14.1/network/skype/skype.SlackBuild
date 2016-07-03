@@ -1,0 +1,375 @@
+#!/bin/sh
+ 
+# Heavily based on the Slackware 14.1 SlackBuild
+
+# Written by Matteo Rossini ( zerouno at slacky.it )
+# Last build from Matteo Rossini ( zerouno at slacky.it )
+# 
+# Slackware build script for skype
+# Official Site: http://www.skype.com
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ''AS IS'' AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+# EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+# OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+# OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+# ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# Require:
+
+set -e
+
+SKYPE=/usr/share/skype
+
+SLACK=${SLACK:-14.1}  # if do you have slackware current: SLACK=current
+PKGNAME=skype
+VERSION=${VERSION:-4.3.0.37}
+BUILD=${BUILD:-1}
+TAG=${TAG:-sl}
+ARCH=${ARCH:-x86_64} # i486 or x86_64
+
+DOCS=""
+SLKFILES="default.pa usr-bin-skype libraries.txt asoundrc.sample"
+
+VSPEEX=1.2rc1
+VJSONC=0.11
+VPULSE=5.0
+VSKYPE=$VERSION
+SSPEEX="http://downloads.xiph.org/releases/speex/speex-$VSPEEX.tar.gz"
+SJSONC="https://s3.amazonaws.com/json-c_releases/releases/json-c-$VJSONC.tar.gz"
+SPULSE="http://freedesktop.org/software/pulseaudio/releases/pulseaudio-$VPULSE.tar.xz"
+SSKYPE="http://download.skype.com/linux/skype-$VSKYPE.tar.bz2"
+
+if [ "$ARCH" = "x86_64" ];then
+  STXZ32="http://repository.slacky.eu/slackware-14.1/network/$PKGNAME-$VERSION-i486-$BUILD$TAG.txz"
+  SLLIBS=${SLLIBS:-http://ftp.slackware.com/pub/slackware/slackware-$SLACK/slackware} # if do you have a slackware dvd: SLLIBS=/mnt/cdrom/slackware (not tested)
+fi
+
+
+
+JOBS=${JOBS:--j2}
+CWD=$(pwd)
+TMP=${TMP:-/tmp/buildpkgs/$PKGNAME}
+PKG=$TMP/package-$PKGNAME
+OUTPUT=${OUTPUT:-$CWD}
+LIB=/tmp/buildpkgs/libraries
+
+
+
+CHOST="i486"
+if [ "$ARCH" = "i486" ]; then
+  SLKCFLAGS="-O2 -march=i486 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "i586" ]; then
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "i686" ]; then
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX="64"
+  CHOST="x86_64"
+fi
+
+
+rm -rf $TMP
+mkdir -p $TMP $PKG $OUTPUT $LIB
+
+
+#### speex #####
+
+SOURCE=$SSPEEX
+
+TAR=$(basename $SOURCE)
+DIR=$(echo "$TAR"|sed -r 's/(\.tar|)(.gz|.bz2|.xz|)$//')
+ 
+ 
+if [ ! -e "$CWD/$TAR" ];then
+  wget "$SOURCE" -O "$CWD/$TAR"
+fi
+cd $TMP
+tar xvf $CWD/$TAR
+cd $DIR
+ 
+chown -R root:root .
+chmod -R u+w,go+r-w,a-s .
+
+CFLAGS="$SLKCFLAGS" \
+CXXFLAGS="$SLKCFLAGS" \
+./configure \
+  --prefix=$SKYPE \
+  --libdir=$SKYPE/lib${LIBDIRSUFFIX} \
+  --disable-static \
+  --program-prefix= \
+  --program-suffix= \
+  --build=$CHOST-slackware-linux
+make $JOBS
+
+cd $TMP/$DIR
+make install DESTDIR=$PKG
+#### end speex ####
+
+#### json-c #####
+SOURCE=$SJSONC
+
+TAR=$(basename $SOURCE)
+DIR=$(echo "$TAR"|sed -r 's/(\.tar|)(.gz|.bz2|.xz|)$//')
+ 
+
+if [ ! -e "$CWD/$TAR" ];then
+  wget "$SOURCE" -O "$CWD/$TAR"
+fi
+cd $TMP
+tar xvf $CWD/$TAR
+cd $DIR
+ 
+chown -R root:root .
+chmod -R u+w,go+r-w,a-s .
+
+CFLAGS="$SLKCFLAGS" \
+CXXFLAGS="$SLKCFLAGS" \
+./configure \
+  --prefix=$SKYPE \
+  --libdir=$SKYPE/lib${LIBDIRSUFFIX} \
+  --disable-static \
+  --program-prefix= \
+  --program-suffix= \
+  --build=$CHOST-slackware-linux
+make -j1
+
+cd $TMP/$DIR
+make install DESTDIR=$PKG
+#### end json-c ####
+
+
+#### pulseaudio #####
+
+SOURCE=$SPULSE
+
+TAR=$(basename $SOURCE)
+DIR=$(echo "$TAR"|sed -r 's/(\.tar|)(.gz|.bz2|.xz|)$//')
+ 
+ 
+if [ ! -e "$CWD/$TAR" ];then
+  wget "$SOURCE" -O "$CWD/$TAR"
+fi
+ 
+# temporary installation (for deps)
+if [ -e $SKYPE ];then
+  echo "Moving installed skype in temporary path ($SKYPE.$$)"
+  mv -v $SKYPE $SKYPE.$$
+  echo "The installation will be restored at the end. If SlackBuild fail you can restore with"
+  echo "rm -r $SKYPE"
+echo "mv $SKYPE.$$ $SKYPE"
+fi
+mkdir -p $SKYPE
+cp -av $PKG$SKYPE/* $SKYPE
+# --
+
+cd $TMP
+tar xvf $CWD/$TAR
+cd $DIR
+ 
+chown -R root:root .
+chmod -R u+w,go+r-w,a-s .
+
+
+
+PKG_CONFIG_PATH=$SKYPE/lib${LIBDIRSUFFIX}/pkgconfig/ \
+CFLAGS="$CFLAGS $SLKCFLAGS" \
+CXXFLAGS="$CXXFLAGS $SLKCFLAGS" \
+./bootstrap.sh \
+    --prefix=$SKYPE \
+    --libdir=$SKYPE/lib${LIBDIRSUFFIX} \
+    --sysconfdir=$SKYPE/etc \
+    --build=$CHOST-slackware-linux \
+    --disable-tcpwrap \
+    --disable-static \
+    --disable-manpages \
+    --disable-solaris \
+    --disable-waveout \
+    --disable-udev \
+    --disable-dbus \
+    --disable-x11
+
+make check
+make $JOBS
+
+cd $TMP/$DIR
+make install-strip DESTDIR=$PKG
+
+sed -i 's/load-module module-detect/#load-module module-detect/' $PKG$SKYPE/etc/pulse/default.pa
+cat $CWD/default.pa >> $PKG$SKYPE/etc/pulse/default.pa
+
+# remove temporary installation
+if [ -e $SKYPE.$$ ];then
+  rm -rf $SKYPE
+  mv ${SKYPE}.$$ ${SKYPE}
+fi
+# --
+
+#### end pulseaudio
+
+( cd $PKG
+  find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
+  find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
+  find . | xargs file | grep "current ar archive" | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
+)
+
+
+
+#### 32bit slackware libraries
+
+if [ "$ARCH" = "x86_64" ];then
+  cd $LIB
+  CHECKSUMS=$LIB/CHECKSUMS.md5
+  rm -f $CHECKSUMS
+  if [ ${SLLIBS:0:1} == "/" ];then
+    cp -v $SLLIBS/CHECKSUMS.md5 $CHECKSUMS
+  else
+    wget -O $CHECKSUMS $SLLIBS/CHECKSUMS.md5
+  fi
+  mkdir -p $PKG$SKYPE/lib
+  cat $CWD/libraries.txt|while read P L W;do
+    echo "Install library $L from $P"
+    PP=$(grep -w $P CHECKSUMS.md5 |grep txz$|awk '{print $2}')
+    PB=$(basename $PP)
+    PC=$(grep -w $P CHECKSUMS.md5 |grep txz$|awk '{print $1}')
+    if [ -e $PB ];then
+      if ! md5sum $PB|grep -q $PC ;then
+	rm $PB
+      fi
+    fi
+    if [ ! -e $PB ];then
+      if [ ${SLLIBS:0:1} == "/" ];then
+	cp $SLLIBS/$PP $PB
+      else
+	wget $SLLIBS/$PP -O $PB
+      fi
+    fi
+    if ! md5sum $PB|grep -q $PC;then
+      echo "ABORT! MD5 DOES NOT MATCH ($PB)."
+      exit
+    fi
+    FILE=$(tar tf $PB | grep $W||true)
+    if [ -z "$FILE" ];then
+      echo "ABORT! Library $W not found in $PP"
+      exit 1
+    fi
+    tar xf $PB $FILE
+    cp -a $FILE $PKG$SKYPE/lib
+    rm -rf $FILE
+    if [ "`basename $FILE`" != "$L" ];then
+      ln -s `basename $FILE` $PKG$SKYPE/lib/$L
+    fi
+  done
+fi
+
+#### end 32bit slackware libraries
+
+#### 32bit pulseaudio libraries
+
+if [ "$ARCH" = "x86_64" ];then
+  TAR=$(basename $STXZ32)
+  DIR=$(echo "$TAR"|sed -r 's/(\.tar|)(.gz|.bz2|\.xz|\.txz)$//')
+
+  if [ ! -e "$CWD/$TAR" ];then
+    wget "$SOURCE" -O "$CWD/$TAR"
+  fi
+  cd $PKG
+  tar xvf $CWD/$TAR ${SKYPE:1}/lib install/doinst.sh
+  . install/doinst.sh
+fi
+
+#### end 32bit pulseaudio libraries
+
+#### skype
+SOURCE=$SSKYPE
+
+TAR=$(basename $SOURCE)
+DIR=$(echo "$TAR"|sed -r 's/(\.tar|)(.gz|.bz2|.xz|)$//')
+
+if [ ! -e "$CWD/$TAR" ];then
+  wget "$SOURCE" -O "$CWD/$TAR"
+fi
+
+cd $TMP
+tar xvf $CWD/$TAR
+cd $DIR
+
+chown -R root:root .
+chmod -R u+w,go+r-w,a-s .
+
+mkdir -p $PKG/usr/bin
+cat $CWD/usr-bin-skype > $PKG/usr/bin/skype
+chmod 755 $PKG/usr/bin/skype
+
+cp -a skype $PKG$SKYPE
+
+cat $CWD/asoundrc.sample > $PKG$SKYPE/asoundrc.sample
+
+mkdir -p $PKG/etc/dbus-1/system.d
+cp skype.conf $PKG/etc/dbus-1/system.d
+
+mkdir -p $PKG$SKYPE
+cp -a sounds avatars lang $PKG$SKYPE
+
+mkdir -p $PKG/usr/share/applications
+cp -a skype.desktop $PKG/usr/share/applications
+
+mkdir -p  $PKG/usr/share/icons/hicolor/16x16/apps
+mkdir -p  $PKG/usr/share/icons/hicolor/32x32/apps
+mkdir -p  $PKG/usr/share/icons/hicolor/48x48/apps
+
+( cd icons
+cp -a SkypeBlue*16*.png $PKG/usr/share/icons/hicolor/16x16/apps/skype.png
+cp -a SkypeBlue*32*.png $PKG/usr/share/icons/hicolor/32x32/apps/skype.png
+cp -a SkypeBlue*48*.png $PKG/usr/share/icons/hicolor/48x48/apps/skype.png
+)
+
+#### end skype
+
+#### cleaning
+cd $PKG$SKYPE
+
+
+mv bin/pulseaudio .
+rm -f bin/*
+mv pulseaudio bin
+rm -fr etc/bash_completion.d
+rm -fr share include
+rm -fr lib/{cmake,pkgconfig}
+#### end cleaning
+
+# Terminating
+
+mkdir -p $PKG/usr/doc/$PKGNAME-$VERSION/SlackBuild
+cd $CWD
+for SB in $PKGNAME.SlackBuild slack-desc doinst.sh doinst.sh.gz EULA.TXT $SLKFILES;do
+   [ -e "$SB" ] && cp -r $SB $PKG/usr/doc/$PKGNAME-$VERSION/SlackBuild/$SB || true
+done
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+[ $ARCH = "x86_64" ] && cat $CWD/doinst.sh > $PKG/install/doinst.sh
+
+
+cd $PKG
+chown -R root:root $PKG
+ 
+/sbin/makepkg -l y -c n $OUTPUT/$PKGNAME-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-txz}
+ 
+if [ "$1" = "--cleanup" ]; then
+  rm -rf $TMP
+fi

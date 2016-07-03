@@ -1,0 +1,12 @@
+cxxlibs >= 6.0.18-i486-1 | gcc-g++ >= 4.8.2-i486-1
+gcc >= 4.8.2-i486-1
+glibc-solibs >= 2.17-i486-7
+ilmbase >= 1.0.3-i486-1
+jasper >= 1.900.1-i486-3
+lcms >= 1.19-i486-2
+libjpeg >= v8a-i486-2_slack14.1
+libmng >= 1.0.10-i486-2
+libpng >= 1.4.12-i486-1
+libtiff >= 3.9.7-i486-1
+openexr >= 1.7.1-i486-1
+zlib >= 1.2.8-i486-1

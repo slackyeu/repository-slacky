@@ -1,0 +1,503 @@
+Sun May 10 05:03:20 CEST 2015
+upgraded :: openjre-7u79_b14-i486-2sl.txz
+upgraded :: openjdk-7u79_b14-i486-2sl.txz
++--------------------------+
+Thu May  7 05:00:33 CEST 2015
+added :: snapraid-8.0-i486-2sl.txz
+upgraded :: flash-player-plugin-11.2.202.457-i386-1sl.txz
++--------------------------+
+Tue Mar 17 05:03:24 CET 2015
+upgraded :: openjre-7u75_b13-i486-2sl.txz
+upgraded :: openjdk-7u75_b13-i486-2sl.txz
++--------------------------+
+Wed Mar  4 05:00:20 CET 2015
+added :: libfpx-1.3.1.4-i486-1sl.txz
++--------------------------+
+Sun Mar  1 05:01:03 CET 2015
+added :: GraphicsMagick-1.3.19-i486-1sl.txz
+added :: darktable-1.6.2-i486-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.442-i386-1sl.txz
+upgraded :: inkscape-0.91-i486-1sl.txz
++--------------------------+
+Mon Jan 19 05:00:32 CET 2015
+upgraded :: flash-player-plugin-11.2.202.429-i386-1sl.txz
++--------------------------+
+Tue Dec 30 05:00:29 CET 2014
+added :: darkplaces-20140513-i486-1sl.txz
+upgraded :: midori-0.5.9-i486-1sl.txz
++--------------------------+
+Mon Dec 29 05:03:38 CET 2014
+recom :: openjre-7u71_b14-i486-2sl.txz
+recom :: openjdk-7u71_b14-i486-2sl.txz
++--------------------------+
+Sun Dec 28 05:01:08 CET 2014
+added :: webkitgtk3-2.4.7-i486-1sl.txz
+added :: yelp-tools-3.12.1-i486-1sl.txz
+added :: yelp-xsl-3.12.0-i486-1sl.txz
+upgraded :: yelp-3.12.0-i486-1sl.txz
++--------------------------+
+Mon Dec 22 05:00:24 CET 2014
+added :: osmo-0.2.12-i486-1sl.txz
++--------------------------+
+Thu Dec 18 05:00:22 CET 2014
+upgraded :: goffice-0.10.15-i486-1sl.txz
++--------------------------+
+Wed Dec 17 05:07:56 CET 2014
+added :: freealut-1.1.0-i486-2sl.txz
+added :: plib-1.8.5-i486-1sl.txz
+added :: gnumeric-1.12.15-i486-1sl.txz
+added :: torcs-1.3.6-i486-1sl.txz
++--------------------------+
+Mon Dec 15 05:00:49 CET 2014
+upgraded :: webkitgtk-2.4.7-i486-1sl.txz
++--------------------------+
+Sun Dec 14 05:02:13 CET 2014
+added :: qemu-2.2.0-i486-1sl.txz
+upgraded :: wine-1.7.33-i486-1sl.txz
++--------------------------+
+Sat Dec 13 05:00:32 CET 2014
+upgraded :: flash-player-plugin-11.2.202.425-i386-1sl.txz
++--------------------------+
+Sat Dec  6 05:00:49 CET 2014
+added :: gst1-plugins-good-1.4.4-i486-1sl.txz
+added :: gst1-plugins-ugly-1.4.4-i486-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.424-i386-1sl.txz
+upgraded :: gst1-plugins-base-1.4.4-i486-1sl.txz
+upgraded :: gstreamer1-1.4.4-i486-1sl.txz
+upgraded :: icedtea-web-1.5.2-i486-1sl.txz
++--------------------------+
+Mon Nov 24 05:03:04 CET 2014
+upgraded :: flash-player-plugin-11.2.202.418-i386-1sl.txz
+upgraded :: google-chrome-39.0.2171.65-i486-1sl.txz
+upgraded :: wine_gecko-2.34-i486-2sl.txz
+upgraded :: wine-1.7.31-i486-1sl.txz
++--------------------------+
+Sat Nov 15 05:00:23 CET 2014
+recom :: fidocadj-0.24.4-i486-5sl.txz
++--------------------------+
+Fri Nov 14 05:00:24 CET 2014
+added :: fidocadj-0.24.4-i486-4sl.txz
++--------------------------+
+Mon Oct 27 05:04:04 CET 2014
+added :: icedtea-web-1.5.1-i486-1sl.txz
+added :: openjre-7u71_b14-i486-1sl.txz
+added :: openjdk-7u71_b14-i486-1sl.txz
+added :: midori-0.5.8-i486-1sl.txz
+added :: lyx-2.1.2-i486-1sl.txz
+upgraded :: transmission-2.84-i486-1sl.txz
++--------------------------+
+Sun Oct 26 05:01:29 CET 2014
+added :: libsodium-1.0.0-i486-1sl.txz
+added :: gst1-plugins-base-1.4.3-i486-1sl.txz
+added :: gstreamer1-1.4.3-i486-1sl.txz
+added :: medit-1.2.0-i486-1sl.txz
+added :: dnscrypt-proxy-1.4.1-i486-1sl.txz
+added :: sylpheed-3.4.2-i486-1sl.txz
+upgraded :: libwebp-0.4.1-i486-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.411-i486-1sl.txz
+upgraded :: webkitgtk-2.4.6-i486-1sl.txz
+upgraded :: vala-0.24.0-i486-1sl.txz
++--------------------------+
+Mon Sep  1 05:00:36 CEST 2014
+upgraded :: skype-4.3.0.37-i486-1sl.txz
++--------------------------+
+Tue Jun  3 05:02:23 CEST 2014
+upgraded :: google-chrome-35.0.1916.114-i486-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.359-i386-1sl.txz
+upgraded :: wine-1.7.19-i486-1sl.txz
++--------------------------+
+Tue May  6 05:01:07 CEST 2014
+added :: libbsd-0.6.0-i486-1sl.txz
+added :: nginx-1.4.7-i486-1sl.txz
+added :: hfsprogs-332.25-i486-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.356-i386-1sl.txz
+upgraded :: wine-1.7.18-i486-1sl.txz
++--------------------------+
+Tue Mar 11 05:00:18 CET 2014
+added :: libmp3splt-0.9.0-i486-1sl.txz
+added :: mp3splt-2.6-i486-1sl.txz
+added :: mp3splt-gtk-0.9-i486-1sl.txz
++--------------------------+
+Mon Feb 17 05:00:25 CET 2014
+added :: libresample-0.1.3-i486-8sl.txz
+added :: audacity-2.0.5-i486-1sl.txz
++--------------------------+
+Thu Feb 13 05:00:19 CET 2014
+added :: smplayer-0.8.6-i486-1sl.txz
++--------------------------+
+Mon Feb  3 05:00:23 CET 2014
+added :: clementine-1.2.1-i486-1sl.txz
+added :: coccinella-0.96.20-i486-6sl.txz
++--------------------------+
+Sun Feb  2 05:00:17 CET 2014
+added :: libcdaudio-0.99.12p2-i486-7sl.txz
+added :: kiwi-1.9.29-i486-2sl.txz
+added :: chromaprint-1.1-i486-1sl.txz
+added :: openbox-3.5.2-i486-1sl.txz
++--------------------------+
+Fri Jan 31 05:00:24 CET 2014
+added :: libtorrent-rasterbar-0.16.14-i486-1sl.txz
+added :: apache-maven-3.1.1-i486-1sl.txz
+added :: ColorFolder-1.0.2-i486-3sl.txz
++--------------------------+
+Thu Jan 30 05:00:39 CET 2014
+added :: podofo-0.9.2-i486-1sl.txz
+added :: wireshark-1.10.5-i486-1sl.txz
++--------------------------+
+Tue Jan 28 05:00:25 CET 2014
+added :: json-glib-0.16.2-i486-1sl.txz
+added :: ETL-0.04.16-i486-1sl.txz
+added :: acetoneiso-2.3-i486-6sl.txz
+added :: krusader-2.4.0.beta3-i486-1sl.txz
++--------------------------+
+Mon Jan 27 05:00:37 CET 2014
+added :: libmimic-1.0.4-i486-10sl.txz
+added :: libsmi-0.4.8-i486-6sl.txz
+added :: asio-1.10.1-i486-1sl.txz
+added :: fltk-1.3.2-i486-2sl.txz
+added :: dvd-slideshow-0.8.4.2-i486-2sl.txz
++--------------------------+
+Sun Jan 26 05:00:20 CET 2014
+added :: alglib-2.6.0-i486-7sl.txz
++--------------------------+
+Sat Jan 25 05:00:30 CET 2014
+added :: libbs2b-3.1.0-i486-8sl.txz
+added :: opera-12.16.1860-i386-1sl.txz
++--------------------------+
+Thu Jan 23 05:00:17 CET 2014
+added :: libmms-0.5-i486-7sl.txz
+added :: stk-4.4.4-i486-4sl.txz
+added :: libwebp-0.4.0-i486-1sl.txz
+added :: aften-0.0.8-i486-10sl.txz
+added :: gtk-recordmydesktop-0.3.8-i486-10sl.txz
+added :: qt-recordmydesktop-0.3.8-i486-10sl.txz
++--------------------------+
+Wed Jan 22 05:00:32 CET 2014
+added :: gconfmm-2.28.3-i486-1sl.txz
+added :: c-ares-1.10.0-i486-1sl.txz
+added :: CImg-1.5.7-i486-1sl.txz
+added :: emovix-0.9.0-i486-10sl.txz
+added :: yakuake-2.9.9-i486-2sl.txz
++--------------------------+
+Mon Jan 20 05:00:24 CET 2014
+added :: ifuse-1.1.2-i486-2sl.txz
+added :: q4wine-1.1.r2-i486-1sl.txz
+added :: icoutils-0.31.0-i486-1sl.txz
+added :: 3ddesktop-0.2.9-i486-8sl.txz
+upgraded :: flash-player-plugin-11.2.202.335-i386-1sl.txz
++--------------------------+
+Sun Jan 19 05:00:32 CET 2014
+added :: vlc-qt-0.10.0-i486-1sl.txz
+added :: ftgl-2.1.3_rc5-i486-4sl.txz
+added :: libnice-0.1.4-i486-1sl.txz
+added :: farsight2-0.0.31-i486-2sl.txz
+added :: tls-1.6-i486-3sl.txz
+added :: libofa-0.9.3-i486-12sl.txz
+added :: gtkglext-1.2.0-i486-12sl.txz
+added :: xmltoman-0.4.3-i486-2sl.txz
+added :: amsn-0.98.9-i486-3sl.txz
++--------------------------+
+Thu Jan 16 05:00:38 CET 2014
+added :: libdaemon-0.14-i486-4sl.txz
+added :: libgnomecanvas-2.30.3-i486-3sl.txz
+added :: nss-mdns-0.10-i486-8sl.txz
+added :: xosd-2.2.14-i486-4sl.txz
+added :: inkscape-0.48.4-i486-2sl.txz
+added :: avahi-0.6.31-i486-2sl.txz
++--------------------------+
+Wed Jan 15 05:00:47 CET 2014
+added :: wv-1.2.4-i486-10sl.txz
+added :: aiksaurus-1.2.1-i486-6sl.txz
+added :: goffice-0.10.9-i486-1sl.txz
+added :: psiconv-0.9.8-i486-10sl.txz
+added :: abiword-2.8.6-i486-10sl.txz
+added :: abiword-docs-2.8.6-i486-6sl.txz
++--------------------------+
+Tue Jan 14 05:00:14 CET 2014
+added :: libwpg-0.2.2-i486-1sl.txz
+added :: kaffeine-mozilla-0.2-i486-4sl.txz
+added :: kaffeine-1.2.2-i486-3sl.txz
+added :: smpeg-r399-i486-1sl.txz
+added :: cdrkit-1.1.11-i486-4sl.txz
++--------------------------+
+Mon Jan 13 05:00:29 CET 2014
+added :: libmusicbrainz-5.0.1-i486-1sl.txz
+added :: gtksourceview3-3.8.2-i486-1sl.txz
+added :: gssdp-0.14.6-i486-1sl.txz
+added :: gupnp-0.20.9-i486-1sl.txz
+added :: gupnp-av-0.12.4-i486-1sl.txz
+added :: gupnp-igd-0.2.2-i486-2sl.txz
+added :: vala-0.23.1-i486-1sl.txz
+recom :: graphviz-2.34.0-i486-2sl.txz
++--------------------------+
+Sun Jan 12 05:01:11 CET 2014
+added :: devil-1.7.8-i486-1sl.txz
+added :: ocaml-4.01.0-i486-1sl.txz
+added :: graphviz-2.34.0-i486-1sl.txz
++--------------------------+
+Fri Jan 10 05:00:29 CET 2014
+upgraded :: cinelerra-20140109-i486-1sl.txz
++--------------------------+
+Wed Jan  8 05:00:18 CET 2014
+added :: gts-0.7.6-i486-11sl.txz
+added :: libLASi-1.1.1-i486-1sl.txz
+added :: rhino-1_7R4-i486-3sl.txz
+added :: apache-ant-1.9.3-i486-1sl.txz
++--------------------------+
+Tue Jan  7 05:02:34 CET 2014
+added :: pangox-compat-0.0.2-i486-1sl.txz
+added :: libgdiplus-2.10.9-i486-2sl.txz
+added :: mono-3.2.3-i486-1sl.txz
+added :: RealPlayer-11.0.2.2315-i486-3sl.txz
+added :: fuseiso-20070708-i486-8sl.txz
+added :: microsoft-fonts-ttf-20060430-i486-4sl.txz
+added :: evince-3.11.3-i486-1sl.txz
++--------------------------+
+Sun Jan  5 05:01:26 CET 2014
+added :: libsexy-0.1.11-i486-12sl.txz
+added :: sexy-python-0.1.9-i486-12sl.txz
+added :: ccsm-0.8.4-i486-2sl.txz
+added :: compiz-plugins-extra-0.8.8-i486-2sl.txz
+added :: compiz-plugins-main-0.8.8-i486-2sl.txz
+added :: emerald-themes-0.6.0-i486-2sl.txz
+added :: fusion-icon-20080213-i486-1sl.txz
+added :: compizconfig-python-0.8.4-i486-4sl.txz
+added :: emerald-0.8.8-i486-2sl.txz
+added :: compiz-plugins-unsupported-0.8.8-i486-2sl.txz
+added :: libcompizconfig-0.8.8-i486-2sl.txz
+added :: compiz-bcop-0.8.8-i486-2sl.txz
+added :: compizconfig-backend-kconfig4-0.8.8-i486-2sl.txz
+added :: simple-ccsm-0.8.8-i486-2sl.txz
+upgraded :: gnome-mime-data-2.18.0-i486-7sl.txz
+upgraded :: googleearth-7.1.2.2041-i386-2sl.txz
++--------------------------+
+Sat Jan  4 05:00:09 CET 2014
+added :: libatomic_ops-7.4.0-i486-1sl.txz
+added :: gc-7.4.0-i486-1sl.txz
++--------------------------+
+Thu Jan  2 05:00:11 CET 2014
+added :: lensfun-0.2.8-i486-1sl.txz
+added :: pyxdg-0.25-i486-1sl.txz
+added :: vamp-plugin-sdk-2.2.1-i486-3sl.txz
++--------------------------+
+Wed Jan  1 05:02:06 CET 2014
+added :: vigra-1.10.0-i486-1sl.txz
+added :: Image-ExifTool-9.45-i486-1sl.txz
+added :: blas-20110419-i486-2sl.txz
+added :: lapack-3.5.0-i486-1sl.txz
+added :: libpano13-2.9.18-i486-2sl.txz
+added :: tclap-1.2.1-i486-2sl.txz
+added :: enblend-enfuse-4.1.2-i486-1sl.txz
+added :: hugin-2013.0.0-i486-1sl.txz
+added :: digikam-3.5.0-i486-1sl.txz
+recom :: opencv-2.4.7-i486-2sl.txz
+recom :: ffmpeg-2.1.1-i486-2sl.txz
++--------------------------+
+Tue Dec 31 05:02:05 CET 2013
+added :: gnome-mime-data-2.4.3-i486-1sl.txz
+added :: lxml-3.2.4-i486-1sl.txz
+added :: googleearth-6.0.3.2197-i386-2sl.txz
+added :: transcode-1.1.7-i486-2sl.txz
+added :: google-chrome-31.0.1650.63-i486-1sl.txz
+recom :: slackyd-1.0.20110809-i486-4sl.txz
++--------------------------+
+Mon Dec 30 05:00:18 CET 2013
+added :: libimobiledevice-1.0.7-i486-2sl.txz
+added :: Twisted-13.2.0-i486-1sl.txz
+added :: gst-python-0.10.22-i486-3sl.txz
+added :: gst-plugins-ugly-0.10.19-i486-2sl.txz
+added :: zope.interface-4.0.5-i486-1sl.txz
+added :: bleachbit-1.0-i486-1sl.txz
+added :: slackyd-1.0.20110809-i486-3sl.txz
++--------------------------+
+Sun Dec 29 05:00:25 CET 2013
+added :: cinelerra-20131228-i486-1sl.txz
+added :: ssmtp-2.64-i486-3sl.txz
+added :: krb5-1.12-i486-1sl.txz
++--------------------------+
+Sat Dec 28 05:00:29 CET 2013
+added :: libsidplay-1.36.59-i486-8sl.txz
+added :: gst-ffmpeg-0.10.13-i486-3sl.txz
+added :: gus-patches-20090910-i486-1sl.txz
+added :: usbmuxd-1.0.7-i486-3sl.txz
+added :: yelp-2.30.1-i486-8sl.txz
++--------------------------+
+Fri Dec 27 05:01:01 CET 2013
+added :: protobuf-2.5.0-i486-1sl.txz
+added :: libmatroska-1.4.1-i486-1sl.txz
+added :: libtar-1.2.11-i486-12sl.txz
+added :: projectm-2.0.1-i486-6sl.txz
+added :: sidplay2-libs-2.1.1-i486-6sl.txz
+added :: live555-2013.12.21-i486-1sl.txz
+added :: libssh2-1.4.3-i486-1sl.txz
+added :: libdvbpsi-1.1.2-i486-1sl.txz
+added :: zvbi-0.2.35-i486-1sl.txz
+added :: libunique-1.1.6-i486-6sl.txz
+added :: GeoIP-Python-1.2.8-i486-1sl.txz
+added :: cryptopp-5.6.2-i486-1sl.txz
+added :: soundtouch-1.7.1-i486-1sl.txz
+added :: libnet-1.1.6-i486-4sl.txz
+added :: setuptools-2.0.1-i486-1sl.txz
+added :: jack-1.9.9.5-i486-1sl.txz
+added :: vlc-2.1.2-i486-1sl.txz
+added :: GeoIP-1.5.1-i486-1sl.txz
+added :: aMule-2.3.1-i486-3sl.txz
+added :: transmission-2.82-i486-1sl.txz
+added :: conky-1.9.0-i486-2sl.txz
+added :: gtk-engines-2.20.2-i486-8sl.txz
+recom :: opus-1.0.3-i486-2sl.txz
+recom :: a52dec-0.7.4-i486-11sl.txz
+upgraded :: flash-player-plugin-11.2.202.332-i386-1sl.txz
+removed :: libevent
++--------------------------+
+Wed Dec 25 05:00:08 CET 2013
+added :: libtiger-0.3.4-i486-4sl.txz
+added :: gsl-1.16-i486-1sl.txz
++--------------------------+
+Tue Dec 24 05:00:09 CET 2013
+added :: tolua++-1.0.93-i486-3sl.txz
+added :: libshout-2.3.1-i486-1sl.txz
+added :: libebml-1.3.0-i486-1sl.txz
+added :: aircrack-ng-1.2.beta2-i486-1sl.txz
++--------------------------+
+Mon Dec 23 05:00:12 CET 2013
+added :: SDL_gfx-2.0.24-i486-2sl.txz
+added :: numpy-1.8.0-i486-1sl.txz
+added :: mjpegtools-2.1.0-i486-1sl.txz
++--------------------------+
+Sun Dec 22 05:00:07 CET 2013
+added :: libupnp-1.6.19-i486-1sl.txz
+added :: goom-2k4.0-i486-12sl.txz
+added :: winetricks-20130919-i486-1sl.txz
++--------------------------+
+Thu Dec 19 05:00:20 CET 2013
+added :: portaudio-20111121-i486-2sl.txz
+added :: opencv-2.4.7-i486-1sl.txz
+added :: libkate-0.4.1-i486-2sl.txz
+added :: libdvdnav-4.2.0-i486-1sl.txz
+added :: vcdimager-0.7.24-i486-4sl.txz
+added :: fluidsynth-1.1.1-i486-10sl.txz
+added :: unrar-5.0.14-i486-1sl.txz
++--------------------------+
+Wed Dec 18 05:01:01 CET 2013
+added :: game-music-emu-0.6.0-i486-1sl.txz
+added :: libmpcdec-1.2.6-i486-10sl.txz
+added :: fontforge-20120731-i486-2sl.txz
+added :: mplayer-codecs-20110131-i486-3sl.txz
+added :: webkitgtk-1.10.2-i486-1sl.txz
++--------------------------+
+Tue Dec 17 05:00:24 CET 2013
+added :: libdca-0.0.5-i486-8sl.txz
+added :: atkmm-2.22.7-i486-1sl.txz
+added :: gtkmm-2.24.4-i486-1sl.txz
+added :: mm-common-0.9.6-i486-2sl.txz
++--------------------------+
+Mon Dec 16 05:00:11 CET 2013
+added :: libgtop-2.28.5-i486-1sl.txz
+added :: libgksu-2.0.12-i486-6sl.txz
+added :: libmpeg2-0.5.1-i486-8sl.txz
+added :: geoclue-0.12.99-i486-2sl.txz
+added :: pangomm-2.34.0-i486-2sl.txz
+added :: slapt-get-0.10.2p-i486-1sl.txz
+added :: gslapt-0.5.3i-i486-1sl.txz
+added :: gksu-2.0.2-i486-6sl.txz
+added :: slapt-update-service-0.5.0b-i486-2sl.txz
+added :: p7zip-9.20.1-i486-3sl.txz
++--------------------------+
+Sun Dec 15 05:00:06 CET 2013
+added :: djbfft-0.76-i486-10sl.txz
+added :: a52dec-0.7.4-i486-10sl.txz
+added :: cabextract-1.4-i486-3sl.txz
++--------------------------+
+Sat Dec 14 05:00:05 CET 2013
+added :: cairomm-1.10.0-i486-1sl.txz
++--------------------------+
+Thu Dec 12 05:00:50 CET 2013
+added :: gnome-desktop-3.8.4-i486-1sl.txz
+added :: imlib2-1.4.5-i486-3sl.txz
+added :: libevent-2.0.21-i486-2sl.txz
+added :: prelink-0.0.20090925-i486-6sl.txz
+added :: wine_gecko-2.24-i486-2sl.txz
+added :: wine-1.7.8-i486-1sl.txz
++--------------------------+
+Tue Dec 10 05:00:13 CET 2013
+added :: exempi-2.2.1-i486-1sl.txz
+added :: ORBit2-2.14.19-i486-3sl.txz
+added :: dirac-1.0.2-i486-8sl.txz
+added :: kismet-2013_03_R1b-i486-1sl.txz
++--------------------------+
+Mon Dec  9 05:03:15 CET 2013
+added :: wxPython-2.8.12.1-i486-3sl.txz
+added :: rarian-0.8.1-i486-8sl.txz
+added :: lua-5.1.5-i486-2sl.txz
+added :: skype-4.2.0.11-i686-2sl.txz
+added :: zenity-3.8.0-i486-1sl.txz
+added :: webcore-fonts-3.0-i486-8sl.txz
+added :: adobe-reader-9.5.5-i486-1sl.txz
+added :: adobe-reader-it-8.1.7-i486-4sl.txz
+recom :: wxGTK-2.8.12-i486-3sl.txz
++--------------------------+
+Sat Dec  7 05:00:11 CET 2013
+added :: libmspack-0.4alpha-i486-1sl.txz
+added :: wxGTK-2.8.12-i486-2sl.txz
+added :: libxml++-2.36.0-i486-1sl.txz
++--------------------------+
+Fri Dec  6 05:01:26 CET 2013
+added :: enca-1.15-i486-1sl.txz
+added :: frei0r-20131119-i486-1sl.txz
+added :: gavl-1.4.0-i486-2sl.txz
+added :: glibmm-2.36.1-i486-1sl.txz
+added :: id3lib-3.8.3-i486-10sl.txz
+added :: libaacplus-2.0.2-i486-4sl.txz
+added :: libass-0.10.2-i486-1sl.txz
+added :: libavc1394-0.5.4-i486-4sl.txz
+added :: libbluray-0.4.0-i486-1sl.txz
+added :: libconfig-1.4.9-i486-1sl.txz
+added :: libdc1394-2.2.1-i486-1sl.txz
+added :: libdv-1.0.0-i486-10sl.txz
+added :: libffado-2.1.0-i486-1sl.txz
+added :: libgsm-1.0.13-i486-8sl.txz
+added :: libiec61883-1.2.0-i486-7sl.txz
+added :: libmodplug-0.8.8.4-i486-2sl.txz
+added :: libnut-20131120-i486-1sl.txz
+added :: libquicktime-1.2.4-i486-4sl.txz
+added :: libsigc++-2.3.1-i486-1sl.txz
+added :: libva-1.2.1-i486-1sl.txz
+added :: libvdpau-0.7-i486-1sl.txz
+added :: libvpx-1.2.0-i486-1sl.txz
+added :: libxavs-20131120-i486-3sl.txz
+added :: mp4v2-2.0.0-i486-2sl.txz
+added :: openal-soft-1.15.1-i486-1sl.txz
+added :: opencore-amr-0.1.3-i486-8sl.txz
+added :: openjpeg-2.0.0-i486-1sl.txz
+added :: opus-1.0.3-i486-1sl.txz
+added :: qjson-0.8.1-i486-1sl.txz
+added :: schroedinger-1.0.11-i486-4sl.txz
+added :: swfdec-0.8.4-i486-10sl.txz
+added :: utvideo-11.1.1-i486-2sl.txz
+added :: vo-aacenc-0.1.3-i486-1sl.txz
+added :: vo-amrwbenc-0.1.3-i486-1sl.txz
+added :: orc-0.4.18-i486-1sl.txz
+added :: recode-3.6-i486-10sl.txz
+added :: scons-2.3.0-i486-1sl.txz
+added :: celt-0.11.1-i486-4sl.txz
+added :: dvdauthor-0.7.1-i486-2sl.txz
+added :: dvgrab-3.5-i486-8sl.txz
+added :: faac-1.28-i486-10sl.txz
+added :: faad2-2.7-i486-10sl.txz
+added :: ffmpeg-2.1.1-i486-1sl.txz
+added :: jack-audio-connection-kit-0.121.3-i486-4sl.txz
+added :: kdenlive-0.9.6-i486-2sl.txz
+added :: ladspa_sdk-1.13-i486-10sl.txz
+added :: lame-3.99.5-i486-2sl.txz
+added :: mlt-0.9.0-i486-1sl.txz
+added :: recordmydesktop-0.3.8.1-i486-7sl.txz
+added :: speex-1.2rc1-i486-9sl.txz
+added :: twolame-0.3.13-i486-4sl.txz
+added :: x264-20131119-i486-1sl.txz
+added :: xvidcore-1.3.2-i486-5sl.txz
+added :: rtmpdump-2.3-i486-4sl.txz
+added :: flash-player-plugin-11.2.202.327-i386-1sl.txz
++--------------------------+
+Fri Nov 29 05:00:02 CET 2013
+added :: libdvdcss-1.2.13-i486-1sl.txz

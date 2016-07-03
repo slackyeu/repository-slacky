@@ -1,0 +1,3 @@
+glibc-solibs >= 2.17-x86_64-7
+libbsd >= 0.6.0-x86_64-1sl
+openssl-solibs >= 1.0.1e-x86_64-1

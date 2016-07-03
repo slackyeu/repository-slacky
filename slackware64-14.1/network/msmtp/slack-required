@@ -1,0 +1,6 @@
+glibc-solibs >= 2.17-x86_64-7
+libgcrypt >= 1.5.3-x86_64-1
+libgpg-error >= 1.11-x86_64-1
+libgsasl >= 1.8.0-x86_64-2sl
+libidn >= 1.25-x86_64-2
+openssl-solibs >= 1.0.1e-x86_64-1

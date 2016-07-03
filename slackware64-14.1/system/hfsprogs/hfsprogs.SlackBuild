@@ -1,0 +1,140 @@
+#!/bin/sh
+
+# Heavily based on the Slackware 14.1 SlackBuild
+# Written by miklos < ardutu at gmail dot com >
+
+# Slackware build script for hfsprogs
+# Official Site: http://www.opensource.apple.com
+# Patches from http://packages.debian.org/sid/hfsprogs
+
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ''AS IS'' AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+# EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+# OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+# OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+# ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# Requirements: libbsd
+
+set -e
+
+PKGNAME=hfsprogs
+SRCNAME=diskdev_cmds
+VERSION=${VERSION:-332.25}
+ARCH=${ARCH:-$(uname -m)}
+BUILD=${BUILD:-2}
+TAG=${TAG:-sl}
+SOURCE="http://ftp.de.debian.org/debian/pool/main/h/hfsprogs/${PKGNAME}_${VERSION}.orig.tar.gz"
+TAR=
+DIR=$SRCNAME-$VERSION
+DOCS="README.TXT INSTALL.TXT docs/ ..."
+SLKFILES="patches/"
+
+# Automatically determine the architecture we're building on:
+case "$ARCH" in
+	  i?86) export ARCH=i486; SLKCFLAGS="-O2 -march=i486 -mtune=i686"; CHOST="i486-slackware-linux" ;;
+	x86_64) SLKCFLAGS="-O2 -fPIC"; LIBDIRSUFFIX="64"; CHOST="x86_64-slackware-linux" ;;
+	  arm*) export ARCH=arm; SLKCFLAGS="-O2 -march=armv5te"; CHOST="arm-slackware-linux-gnueabi" ;;
+# Unless $ARCH is already set, use uname -m for all other archs:
+		 *) export ARCH=$( uname -m ) ;;
+esac
+
+# Do not touch following if not needed
+JOBS=${JOBS:--j2}
+CWD=$(pwd)
+TMP=${TMP:-/tmp/buildpkgs/$PKGNAME}
+PKG=$TMP/package-$PKGNAME
+OUTPUT=${OUTPUT:-$CWD}
+TAR=${TAR:-$(basename $SOURCE)}
+DIR=${DIR:-$(echo "$TAR"|sed -r 's/(\.tar|)(.gz|.bz2|.xz|.tgz|)$//')}
+
+if [ ! -e $CWD/$TAR ];then
+	wget $SOURCE -O "$CWD/$TAR"
+fi
+
+### Preparing Source
+rm -rf $TMP
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+tar xvf $CWD/$TAR
+cd $DIR
+
+patch -p1 < $CWD/patches/0001-Create-short-Makefiles-for-Debian.patch
+patch -p1 < $CWD/patches/0002-Add-exclude-Darwin-specific-code.patch
+patch -p1 < $CWD/patches/0003-Add-helper-include-files-absent-from-the-upstream-pa.patch
+patch -p1 < $CWD/patches/0004-Fix-compilation-on-64-bit-arches.patch
+patch -p1 < $CWD/patches/0005-Remove-Apple-specific-p-from-strings.patch
+patch -p1 < $CWD/patches/0006-Adjust-types-for-printing.patch
+patch -p1 < $CWD/patches/0007-Fix-path-for-HFS-wrapper-block.patch
+patch -p1 < $CWD/patches/0008-Provide-command-line-option-a.patch
+patch -p1 < $CWD/patches/0009-Rename-dprintf-to-dbg_printf.patch
+patch -p1 < $CWD/patches/0010-Rename-custom-macro-nil-with-NULL.patch
+patch -p1 < $CWD/patches/0011-Fix-types.patch
+patch -p1 < $CWD/patches/0012-Fix-mkfs-not-creating-UUIDs-for-new-filesystems.patch
+patch -p1 < $CWD/patches/0013-Fix-manpages.patch
+
+chown -R root:root .
+chmod -R u+w,go+r-w,a-s .
+
+make CFLAGS="$SLKCFLAGS -I$TMP/$SRCNAME-$VERSION/include -DDEBUG_BUILD=0 -D_FILE_OFFSET_BITS=64 -D LINUX=1 -D BSD=1" -f Makefile.lnx
+
+install -Dm 0644 newfs_hfs.tproj/hfsbootdata.img $PKG/usr/share/$PKGNAME/hfsbootdata
+install -Dm 0755 newfs_hfs.tproj/newfs_hfs $PKG/usr/sbin/mkfs.hfsplus
+install -Dm 0755 fsck_hfs.tproj/fsck_hfs $PKG/usr/sbin/fsck.hfsplus
+install -Dm 0644 fsck_hfs.tproj/fsck_hfs.8 $PKG/usr/man/man8/fsck.hfsplus.8
+install -Dm 0644 newfs_hfs.tproj/newfs_hfs.8 $PKG/usr/man/man8/mkfs.hfsplus.8
+
+mkdir -p $PKG/usr/doc/$PKGNAME-$VERSION
+for DC in $DOCS;do
+	[ -e $DC ] && cp -r $DC $PKG/usr/doc/$PKGNAME-$VERSION/ || true
+done
+
+mkdir -p $PKG/usr/doc/$PKGNAME-$VERSION/SlackBuild	
+cd $CWD
+for SB in $PKGNAME.SlackBuild slack-desc doinst.sh doinst.sh.gz EULA.TXT $SLKFILES;do
+	[ -e "$SB" ] && cp -r $SB $PKG/usr/doc/$PKGNAME-$VERSION/SlackBuild/$SB || true
+done
+
+for i in man info
+do
+    if [ -d $PKG/usr/$i ]; then
+   		cd $PKG/usr/$i
+		find . -type f -exec gzip -9 {} \;
+		for file in $( find . -type l ) ; do ln -s $( readlink $file ).gz $file.gz ; rm $file ; done
+		[ "$i" == "info" ] && rm -f dir
+    fi
+done
+	
+cd $PKG
+find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
+find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
+find . | xargs file | grep "current ar archive" | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+[ -e $CWD/doinst.sh ] && cat $CWD/doinst.sh > $PKG/install/doinst.sh
+[ -e $CWD/doinst.sh.gz ] && zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
+
+cd $PKG
+chown -R root:root $PKG
+
+if [ -x "$(which requiredbuilder 2>/dev/null)" ];then
+	requiredbuilder -y -v -s $CWD $PKG # add "-c -b" if you have binary files in /usr/share
+	[ -e install/slack-required ] && cat install/slack-required > $PKG/usr/doc/$PKGNAME-$VERSION/SlackBuild/slack-required
+fi
+
+/sbin/makepkg -l y -c n $OUTPUT/$PKGNAME-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-txz}
+
+if [ "$1" = "--cleanup" ]; then
+	rm -rf $TMP
+fi

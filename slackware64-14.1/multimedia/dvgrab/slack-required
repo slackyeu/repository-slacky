@@ -1,0 +1,10 @@
+cxxlibs >= 6.0.18-x86_64-1 | gcc-g++ >= 4.8.2-x86_64-1
+gcc >= 4.8.2-x86_64-1
+glibc-solibs >= 2.17-x86_64-7
+libavc1394 >= 0.5.4-x86_64-2sl
+libdv >= 1.0.0-x86_64-8sl
+libiec61883 >= 1.2.0-x86_64-2sl
+libjpeg >= v8a-x86_64-2_slack14.1
+libquicktime >= 1.2.4-x86_64-1sl
+libraw1394 >= 2.0.7-x86_64-1
+zlib >= 1.2.8-x86_64-1

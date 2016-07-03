@@ -1,0 +1,11 @@
+# 5/23/2013 - updated logrotate script based on suggestion by Sebastian Arcus
+# and official github documentation.
+/var/log/fail2ban.log {
+    weekly
+    rotate 7
+    missingok
+    nocompress
+    postrotate
+	/usr/bin/fail2ban-client set logtarget /var/log/fail2ban.log 1>/dev/null || true
+    endscript
+}

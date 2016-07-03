@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+    |-----handy-ruler------------------------------------------------------|
+ccsm: CCSM (Compiz Configuration System Manager)
+ccsm:
+ccsm: Compiz Fusion is the result of a merge between the Compiz community
+ccsm: plugin set "Compiz Extras" and the parts  of the Beryl project that
+ccsm: are independent of  the  window manager  core.  The two communities
+ccsm: have re-united to  create  a user experience  for Linux that rivals
+ccsm: anything available on other platforms.
+ccsm:
+ccsm:
+ccsm:
+ccsm:

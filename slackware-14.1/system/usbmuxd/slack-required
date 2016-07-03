@@ -1,0 +1,6 @@
+glibc-solibs >= 2.17-i486-7
+libplist >= 1.8-i486-1
+libusb >= 1.0.9-i486-1
+libxml2 >= 2.9.1-i486-1
+xz >= 5.0.5-i486-1
+zlib >= 1.2.8-i486-1

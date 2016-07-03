@@ -1,0 +1,8 @@
+glib2 >= 2.36.4-i486-1
+glibc-solibs >= 2.17-i486-7
+libX11 >= 1.6.2-i486-1
+libXau >= 1.0.8-i486-1
+libXdmcp >= 1.1.1-i486-1
+libffi >= 3.0.13-i486-2
+libxcb >= 1.9.1-i486-1
+pango >= 1.34.1-i486-1

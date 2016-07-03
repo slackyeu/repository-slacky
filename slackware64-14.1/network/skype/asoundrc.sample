@@ -1,0 +1,53 @@
+# To make skype working audio you must properly define here
+# 1) an output device called "skype_out"
+# 2) an input device called "skype_in"
+#
+# We have some sample configuration.
+#
+# Please, test audio and microphone with command:
+# $ arecord -f cd -D plug:skype_in |aplay -D plug:skype_out
+#
+# When it works try run
+# $ /usr/share/skype/bin/pulseaudio
+# If it works stop it with Ctrl+C and start Skype
+
+
+# That should works in most installations
+
+# Configuration for speaker device
+pcm.skype_out {
+	type plug
+	slave.pcm dmix
+}
+
+# Configuration for microphone
+pcm.skype_in {
+	type plug
+	slave.pcm dsnoop
+}
+# be sure to unmute the microphne and select the correct 'capture' device in kmix or alsamixer
+
+
+
+# If your device does not properly supports 'dmix', try with following configuration
+# pcm.skype_out {
+#	type dmix
+#	ipc_key 1024
+#	slave {
+#		# substitute hw:0,0 with your working device
+#		# (you can find it int kde audio configuration tool)
+#		pcm hw:0,0
+#		# pcm hw:1
+#	}
+# }
+# pcm.skype_in {
+#	type dsnoop
+#	ipc_key 1025
+#	slave {
+#		# substitute hw:0,0 with your working device
+#		# (you can find it int kde audio configuration tool)
+#		pcm hw:0,0
+#		# pcm hw:1
+#	}
+# }
+

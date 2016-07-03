@@ -1,0 +1,14 @@
+NetworkManager >= 0.9.8.8-i486-1
+dbus >= 1.6.12-i486-1
+dbus-glib >= 0.100.2-i486-1
+glib2 >= 2.36.4-i486-1
+glibc-solibs >= 2.17-i486-7
+libffi >= 3.0.13-i486-2
+libsoup >= 2.42.2-i486-1
+libxml2 >= 2.9.1-i486-1
+mozilla-nss >= 3.15.3-i486-1_slack14.1
+sqlite >= 3.7.17-i486-1
+udev >= 182-i486-7
+util-linux >= 2.21.2-i486-6
+xz >= 5.0.5-i486-1
+zlib >= 1.2.8-i486-1

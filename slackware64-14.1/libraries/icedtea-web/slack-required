@@ -1,0 +1,5 @@
+cxxlibs >= 6.0.18-x86_64-1
+glib2 >= 2.36.4-x86_64-1
+glibc-solibs >= 2.17-x86_64-7
+mozilla-nss >= 3.16.5-x86_64-1_slack14.1
+zlib >= 1.2.8-x86_64-1

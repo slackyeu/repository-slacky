@@ -1,0 +1,28 @@
+#!/bin/bash
+
+SKYPE=/usr/share/skype
+
+if [ -e $SKYPE/lib64 ];then
+  LIB32=$SKYPE/lib
+  export GCONV_PATH=$LIB32/gconv
+  export QT_PLUGIN_PATH=$LIB32/plugins
+  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SKYPE/lib:$SKYPE/lib64
+else
+  LIB32=/usr/lib
+fi
+
+if ! grep -q pcm.skype_out ~/.asoundrc 2>/dev/null;then
+  echo "Configuring audio..."
+  cat $SKYPE/asoundrc.sample >> ~/.asoundrc
+fi
+$SKYPE/bin/pulseaudio --start
+if [ $? -ne 0 ];then
+  echo "WARNING!! You audio is not properly configured!! Edit ~/.asoundrc and fix it"
+fi
+
+
+LD_PRELOAD=$LIB32/libv4l/v4l1compat.so \
+PULSE_LATENCY_MSEC=60 \
+  $SKYPE/skype 
+
+$SKYPE/bin/pulseaudio --kill

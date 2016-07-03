@@ -1,0 +1,30 @@
+compiz-fusion sequence:
+
+
+1) compiz
+
+2) compiz-bcop
+
+3) protobuf (optional but recommended)
+
+4) libcompizconfig (protobuf)
+
+5) compizconfig-python (libcompizconfig)
+
+6) ccsm (libsexy, sexy-python)
+
+7) simple-ccsm (ccsm, libsexy, sexy-python)
+
+8) compiz-plugins-main
+
+9) compiz-plugins-extra (compiz-plugins-main - optional)
+
+10) compiz-plugins-unsupported (compiz-plugins-main - optional)
+
+11) compizconfig-backend-kconfig4 (libcompizconfig - optional)
+
+12) emerald (compiz - optional)
+
+13) emerald-themes (emerald - optional)
+
+14) fusion-icon (optional)

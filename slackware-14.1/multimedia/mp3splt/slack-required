@@ -1,0 +1,4 @@
+glibc-solibs >= 2.17-i486-7
+libmp3splt >= 0.9.0-i486-1sl
+libtool >= 2.4.2-i486-2
+pcre >= 8.33-i486-1

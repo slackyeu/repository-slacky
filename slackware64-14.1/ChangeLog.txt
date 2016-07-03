@@ -1,0 +1,540 @@
+Sat Jul 18 05:00:16 CEST 2015
+upgraded :: vala-0.28-x86_64-1sl.txz
++--------------------------+
+Sun Jul 12 05:00:36 CEST 2015
+recom :: numpy-1.8.0-x86_64-2sl.txz
+upgraded :: flash-player-plugin-11.2.202.481-x86_64-1sl.txz
+upgraded :: midori-0.5.10-x86_64-1sl.txz
+upgraded :: bleachbit-1.8-x86_64-1sl.txz
++--------------------------+
+Sun May 10 05:12:37 CEST 2015
+upgraded :: nginx-1.8.0-x86_64-1sl.txz
+upgraded :: qemu-2.3.0-x86_64-1sl.txz
+upgraded :: bleachbit-1.6-x86_64-1sl.txz
+upgraded :: snapraid-8.0-x86_64-2sl.txz
+upgraded :: mongodb-2.6.9-x86_64-1sl.txz
+upgraded :: mongo-php-driver-1.6.7-x86_64-1sl.txz
++--------------------------+
+Sat May  9 05:00:28 CEST 2015
+upgraded :: rawtherapee-4.2-x86_64-1sl.txz
++--------------------------+
+Wed May  6 05:01:09 CEST 2015
+upgraded :: openjre-7u79_b14-x86_64-2sl.txz
++--------------------------+
+Tue Apr 28 05:03:02 CEST 2015
+upgraded :: flash-player-plugin-11.2.202.457-x86_64-1sl.txz
+upgraded :: openjdk-7u79_b14-x86_64-2sl.txz
++--------------------------+
+Mon Mar 30 05:00:42 CEST 2015
+upgraded :: inkscape-0.91-x86_64-1sl.txz
++--------------------------+
+Thu Mar 19 05:00:37 CET 2015
+added :: snapraid-7.1-x86_64-2sl.txz
+upgraded :: flash-player-plugin-11.2.202.451-x86_64-1sl.txz
++--------------------------+
+Mon Feb 23 05:00:24 CET 2015
+upgraded :: lensfun-0.3.0-x86_64-1sl.txz
+upgraded :: darktable-1.6.2-x86_64-1sl.txz
++--------------------------+
+Sun Feb 22 05:03:27 CET 2015
+upgraded :: flash-player-plugin-11.2.202.442-x86_64-1sl.txz
+upgraded :: openjre-7u75_b13-x86_64-2sl.txz
+upgraded :: openjdk-7u75_b13-x86_64-2sl.txz
++--------------------------+
+Mon Feb  9 05:00:19 CET 2015
+upgraded :: bluefish-2.2.7-x86_64-1sl.txz
++--------------------------+
+Wed Jan 14 05:00:26 CET 2015
+upgraded :: flash-player-plugin-11.2.202.429-x86_64-1sl.txz
++--------------------------+
+Tue Dec 30 05:02:24 CET 2014
+added :: darkplaces-20140513-x86_64-1sl.txz
+upgraded :: midori-0.5.9-x86_64-1sl.txz
++--------------------------+
+Mon Dec 29 05:12:37 CET 2014
+added :: webkitgtk3-2.4.7-x86_64-1sl.txz
+added :: yelp-3.12.0-x86_64-1sl.txz
+added :: yelp-tools-3.12.1-x86_64-1sl.txz
+added :: yelp-xsl-3.12.0-x86_64-1sl.txz
+upgraded :: qemu-2.2.0-x86_64-1sl.txz
++--------------------------+
+Thu Dec 25 05:03:32 CET 2014
+recom :: openjre-7u71_b14-x86_64-2sl.txz
+recom :: openjdk-7u71_b14-x86_64-2sl.txz
++--------------------------+
+Mon Dec 22 05:02:36 CET 2014
+upgraded :: goffice-0.10.15-x86_64-1sl.txz
+upgraded :: gnumeric-1.12.15-x86_64-1sl.txz
++--------------------------+
+Sun Dec 14 05:07:26 CET 2014
+upgraded :: webkitgtk-2.4.7-x86_64-1sl.txz
++--------------------------+
+Sat Dec 13 05:02:29 CET 2014
+upgraded :: flash-player-plugin-11.2.202.425-x86_64-1sl.txz
++--------------------------+
+Wed Dec 10 05:01:21 CET 2014
+added :: gsl-1.16-x86_64-1sl.txz
+added :: lxml-3.4.1-x86_64-1sl.txz
+added :: inkscape-0.48.5-x86_64-1sl.txz
++--------------------------+
+Tue Dec  9 05:00:22 CET 2014
+upgraded :: icedtea-web-1.5.2-x86_64-1sl.txz
++--------------------------+
+Sun Nov 30 05:00:38 CET 2014
+added :: gst1-plugins-good-1.4.4-x86_64-1sl.txz
+added :: gst1-plugins-ugly-1.4.4-x86_64-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.424-x86_64-1sl.txz
+upgraded :: gst1-plugins-base-1.4.4-x86_64-1sl.txz
+upgraded :: gstreamer1-1.4.4-x86_64-1sl.txz
++--------------------------+
+Sat Nov 22 05:01:49 CET 2014
+upgraded :: flash-player-plugin-11.2.202.418-x86_64-1sl.txz
+upgraded :: google-chrome-39.0.2171.65-x86_64-1sl.txz
++--------------------------+
+Sat Nov 15 05:02:03 CET 2014
+recom :: fidocadj-0.24.4-x86_64-5sl.txz
++--------------------------+
+Fri Nov 14 05:45:30 CET 2014
+added :: fidocadj-0.24.4-x86_64-4sl.txz
++--------------------------+
+Thu Oct 30 05:00:20 CET 2014
+added :: osmo-0.2.12-x86_64-1sl.txz
++--------------------------+
+Tue Oct 21 05:01:09 CEST 2014
+upgraded :: webkitgtk-2.4.6-x86_64-1sl.txz
+upgraded :: lyx-2.1.2-x86_64-1sl.txz
++--------------------------+
+Mon Oct 20 05:05:48 CEST 2014
+added :: libunique-1.1.6-x86_64-6sl.txz
+added :: midori-0.5.8-x86_64-1sl.txz
+upgraded :: openjre-7u71_b14-x86_64-1sl.txz
+upgraded :: icedtea-web-1.5.1-x86_64-1sl.txz
+upgraded :: openjdk-7u71_b14-x86_64-1sl.txz
+upgraded :: transmission-2.84-x86_64-1sl.txz
+upgraded :: sylpheed-3.4.2-x86_64-1sl.txz
+upgraded :: qemu-2.1.2-x86_64-1sl.txz
++--------------------------+
+Fri Oct 17 05:01:14 CEST 2014
+added :: gst1-plugins-base-1.4.3-x86_64-1sl.txz
+added :: gstreamer1-1.4.3-x86_64-1sl.txz
+added :: libwebp-0.4.1-x86_64-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.411-x86_64-1sl.txz
+upgraded :: libsodium-1.0.0-x86_64-1sl.txz
+upgraded :: dnscrypt-proxy-1.4.1-x86_64-1sl.txz
++--------------------------+
+Fri Oct 10 05:00:16 CEST 2014
+added :: polipo-1.1.1-x86_64-1sl.txz
++--------------------------+
+Sun Oct  5 05:06:37 CEST 2014
+added :: freealut-1.1.0-x86_64-2sl.txz
+added :: plib-1.8.5-x86_64-1sl.txz
+added :: torcs-1.3.6-x86_64-1sl.txz
++--------------------------+
+Fri Sep 19 05:00:19 CEST 2014
+upgraded :: medit-1.2.0-x86_64-1sl.txz
++--------------------------+
+Thu Sep 18 05:00:41 CEST 2014
+added :: libsodium-0.7.0-x86_64-1sl.txz
+added :: dnscrypt-proxy-1.4.0-x86_64-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.406-x86_64-1sl.txz
+upgraded :: beanstalkd-1.10-x86_64-2sl.txz
++--------------------------+
+Mon Sep  1 05:36:18 CEST 2014
+added :: skype-4.3.0.37-x86_64-1sl.txz
++--------------------------+
+Tue Jun 24 05:00:19 CEST 2014
+upgraded :: filezilla-3.8.1-x86_64-1sl.txz
++--------------------------+
+Tue Jun  3 05:36:51 CEST 2014
+recom :: compat32-libraries-14.1-x86_64-2sl.txz
++--------------------------+
+Mon Jun  2 05:02:21 CEST 2014
+recom :: qemu-2.0.0-x86_64-2sl.txz
+upgraded :: google-chrome-35.0.1916.114-x86_64-1sl.txz
++--------------------------+
+Fri May 30 05:01:14 CEST 2014
+upgraded :: qemu-2.0.0-x86_64-1sl.txz
++--------------------------+
+Mon May 19 05:00:28 CEST 2014
+added :: bleachbit-1.0-x86_64-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.359-x86_64-1sl.txz
++--------------------------+
+Wed May  7 05:01:46 CEST 2014
+upgraded :: chromium-34.0.1847.116-x86_64-2sl.txz
++--------------------------+
+Wed Apr 30 05:00:32 CEST 2014
+added :: hfsprogs-332.25-x86_64-2sl.txz
+added :: darktable-1.4.2-x86_64-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.356-x86_64-1sl.txz
++--------------------------+
+Sat Apr 26 05:00:38 CEST 2014
+added :: libbsd-0.6.0-x86_64-1sl.txz
+added :: sparsehash-2.0.2-x86_64-1sl.txz
+added :: libfpx-1.3.1.3-x86_64-1sl.txz
+added :: GraphicsMagick-1.3.19-x86_64-1sl.txz
+added :: clementine-1.2.1-x86_64-1sl.txz
+upgraded :: smplayer-14.3.0-x86_64-1sl.txz
+upgraded :: smtube-2.1-x86_64-2sl.txz
+upgraded :: gparted-0.18.0-x86_64-1sl.txz
++--------------------------+
+Fri Apr 25 05:02:02 CEST 2014
+added :: rawtherapee-4.0.12.140.2715-x86_64-1sl.txz
+upgraded :: compat32-libraries-14.1-x86_64-1sl.txz
++--------------------------+
+Thu Apr 24 05:00:23 CEST 2014
+upgraded :: bluefish-2.2.6-x86_64-1sl.txz
++--------------------------+
+Mon Apr 21 05:05:25 CEST 2014
+added :: libiptcdata-1.0.4-x86_64-2sl.txz
+upgraded :: flash-player-plugin-11.2.202.350-x86_64-1sl.txz
+upgraded :: openjre-7u55_b14-x86_64-1sl.txz
+upgraded :: icedtea-web-1.5-x86_64-1sl.txz
+upgraded :: openjdk-7u55_b14-x86_64-1sl.txz
+upgraded :: mongodb-2.6.0-x86_64-1sl.txz
++--------------------------+
+Sun Apr 20 05:01:26 CEST 2014
+upgraded :: google-chrome-34.0.1847.116-x86_64-1sl.txz
++--------------------------+
+Tue Mar 25 05:00:25 CET 2014
+added :: mongo-php-driver-1.4.5-x86_64-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.346-x86_64-1sl.txz
+upgraded :: nginx-1.4.7-x86_64-1sl.txz
+upgraded :: sylpheed-3.3.1-x86_64-3sl.txz
++--------------------------+
+Tue Mar 11 05:32:59 CET 2014
+added :: libmp3splt-0.9.0-x86_64-1sl.txz
+added :: mp3splt-2.6-x86_64-1sl.txz
+added :: mp3splt-gtk-0.9-x86_64-1sl.txz
++--------------------------+
+Tue Mar  4 05:00:18 CET 2014
+added :: filezilla-3.7.4.1-x86_64-1sl.txz
++--------------------------+
+Mon Mar  3 05:00:28 CET 2014
+upgraded :: nginx-1.4.5-x86_64-1sl.txz
+upgraded :: aMule-2.3.1_r10834-x86_64-1sl.txz
++--------------------------+
+Sun Mar  2 05:00:23 CET 2014
+added :: wv-1.2.9-x86_64-10sl.txz
+added :: squashfs-tools-4.2-x86_64-1sl.txz
+added :: aiksaurus-1.2.1-x86_64-6sl.txz
+added :: psiconv-0.9.8-x86_64-10sl.txz
+added :: abiword-3.0.0-x86_64-1sl.txz
++--------------------------+
+Thu Feb 27 05:02:40 CET 2014
+upgraded :: google-chrome-33.0.1750.117-x86_64-1sl.txz
+upgraded :: chromium-32.0.1700.107-x86_64-1sl.txz
++--------------------------+
+Wed Feb 26 05:00:12 CET 2014
+added :: siege-3.0.5-x86_64-1sl.txz
++--------------------------+
+Tue Feb 25 05:00:31 CET 2014
+added :: libtorrent-0.13.2-x86_64-2sl.txz
+added :: rtorrent-0.9.2-x86_64-1sl.txz
+added :: testdisk-6.14-x86_64-2sl.txz
+added :: anacron-2.3-x86_64-1sl.txz
+added :: sshfs-fuse-2.5-x86_64-1sl.txz
+added :: lyx-2.0.7.1-x86_64-1sl.txz
++--------------------------+
+Sat Feb 22 05:00:55 CET 2014
+added :: pangox-compat-0.0.2-x86_64-1sl.txz
+added :: celestia-1.6.1-x86_64-1sl.txz
+added :: gtkglext-1.2.0-x86_64-12sl.txz
++--------------------------+
+Fri Feb 21 05:00:12 CET 2014
+added :: easytag-2.1.10-x86_64-1sl.txz
++--------------------------+
+Wed Feb 19 05:01:34 CET 2014
+added :: bluefish-2.2.5-x86_64-1sl.txz
+added :: asunder-2.4-x86_64-1sl.txz
+upgraded :: google-chrome-32.0.1700.107-x86_64-1sl.txz
++--------------------------+
+Mon Feb 17 05:02:54 CET 2014
+added :: eigen3-3.2.0-x86_64-1sl.txz
+added :: liblqr-0.4.2-x86_64-1sl.txz
+added :: libpgf-6.12.24-x86_64-1sl.txz
+added :: protobuf-2.5.0-x86_64-1sl.txz
+added :: chromaprint-1.1-x86_64-1sl.txz
+added :: digikam-3.5.0-x86_64-1sl.txz
++--------------------------+
+Sat Feb  8 05:01:08 CET 2014
+upgraded :: icedtea-web-1.4.2-x86_64-1sl.txz
+upgraded :: skype_static-4.2.0.13-x86_64-1sl.txz
++--------------------------+
+Mon Feb  3 05:07:28 CET 2014
+added :: rrdtool-1.4.8-x86_64-1sl.txz
+added :: chromium-32.0.1700.77-x86_64-1sl.txz
+added :: collectd-5.4.1-x86_64-1sl.txz
+added :: mongodb-2.4.9-x86_64-1sl.txz
+upgraded :: openjre-7u51_b31-x86_64-1sl.txz
+upgraded :: openjdk-7u51_b31-x86_64-1sl.txz
++--------------------------+
+Sun Feb  2 05:36:19 CET 2014
+upgraded :: openjre-7u51_b00-x86_64-1sl.txz
+upgraded :: openjdk-7u51_b00-x86_64-1sl.txz
++--------------------------+
+Tue Jan 28 05:02:02 CET 2014
+added :: mlt-0.9.0-x86_64-3sl.txz
+added :: kdenlive-0.9.6-x86_64-1sl.txz
++--------------------------+
+Mon Jan 27 05:03:00 CET 2014
+added :: kismet-2013_03_R1b-x86_64-1sl.txz
+added :: krb5-1.12-x86_64-1sl.txz
+added :: opera-12.16.1860-x86_64-1sl.txz
+added :: terminator-0.97-x86_64-1sl.txz
+added :: fuseiso-20070708-x86_64-1sl.txz
++--------------------------+
+Sun Jan 26 05:02:37 CET 2014
+added :: xchm-1.23-x86_64-1sl.txz
+added :: Xdialog-2.3.1-x86_64-9sl.txz
+added :: libcue-1.4.0-x86_64-1sl.txz
+added :: cmus-2.5.0-x86_64-1sl.txz
+added :: deadbeef-0.6.0-x86_64-1sl.txz
+added :: qemu-1.6.2-x86_64-1sl.txz
+added :: gnumeric-1.12.9-x86_64-2sl.txz
++--------------------------+
+Fri Jan 24 05:00:12 CET 2014
+added :: swfdec-0.8.4-x86_64-1sl.txz
+added :: recordmydesktop-0.3.8.1-x86_64-6sl.txz
+added :: gtk-recordmydesktop-0.3.8-x86_64-10sl.txz
+added :: qt-recordmydesktop-0.3.8-x86_64-10sl.txz
++--------------------------+
+Thu Jan 23 05:01:29 CET 2014
+added :: libquicktime-1.2.4-x86_64-1sl.txz
+added :: dvgrab-3.5-x86_64-1sl.txz
++--------------------------+
+Wed Jan 22 05:02:43 CET 2014
+added :: goffice-0.10.9-x86_64-1sl.txz
+added :: numpy-1.8.0-x86_64-1sl.txz
+added :: opencv-2.4.7-x86_64-1sl.txz
+upgraded :: flash-player-plugin-11.2.202.335-x86_64-1sl.txz
++--------------------------+
+Tue Jan 21 05:00:12 CET 2014
+added :: libmpcdec-1.2.6-x86_64-1sl.txz
+added :: sidplay2-libs-2.1.1-x86_64-6sl.txz
+added :: vcdimager-0.7.24-x86_64-1sl.txz
++--------------------------+
+Mon Jan 20 05:03:26 CET 2014
+added :: confuse-2.7-x86_64-3sl.txz
+added :: vobcopy-1.2.0-x86_64-2sl.txz
+added :: ffmpeg-2.1.3-x86_64-1sl.txz
+added :: winff-1.5.2-x86_64-1sl.txz
+added :: evince-3.11.3-x86_64-1sl.txz
+added :: tilda-0.9.6-x86_64-3sl.txz
+added :: cdrkit-1.1.11-x86_64-1sl.txz
+upgraded :: openjpeg-1.5.1-x86_64-1sl.txz
+upgraded :: avidemux-qt4-2.6.7-x86_64-1sl.txz
+upgraded :: google-chrome-32.0.1700.77-x86_64-1sl.txz
+upgraded :: unrar-4.2.4-x86_64-1sl.txz
++--------------------------+
+Sun Jan 19 05:02:04 CET 2014
+added :: opus-1.0.3-x86_64-1sl.txz
+added :: utvideo-11.1.1-x86_64-1sl.txz
+added :: streamripper-1.64.6-x86_64-1sl.txz
+added :: kstreamripper-0.7.100-x86_64-1sl.txz
++--------------------------+
+Wed Jan  8 05:01:43 CET 2014
+added :: libssh2-1.4.3-x86_64-1sl.txz
+added :: lensfun-0.2.8-x86_64-1sl.txz
+added :: qjson-0.8.1-x86_64-1sl.txz
++--------------------------+
+Tue Jan  7 05:06:38 CET 2014
+added :: game-music-emu-0.6.0-x86_64-1sl.txz
+added :: libass-0.10.2-x86_64-1sl.txz
+added :: libebml-1.3.0-x86_64-1sl.txz
+added :: libmatroska-1.4.1-x86_64-1sl.txz
+added :: libaacplus-2.0.2-x86_64-1sl.txz
+added :: libdvbpsi-1.1.2-x86_64-1sl.txz
+added :: libkate-0.4.1-x86_64-2sl.txz
+added :: libtar-1.2.11-x86_64-12sl.txz
+added :: libtiger-0.3.4-x86_64-4sl.txz
+added :: libshout-2.3.1-x86_64-1sl.txz
+added :: projectm-2.0.1-x86_64-6sl.txz
+added :: zvbi-0.2.35-x86_64-1sl.txz
+added :: goom-2k4.0-x86_64-12sl.txz
+added :: fluidsynth-1.1.6-x86_64-1sl.txz
+added :: dvdauthor-0.7.1-x86_64-1sl.txz
++--------------------------+
+Mon Jan  6 05:00:36 CET 2014
+added :: libxavs-20140105-x86_64-1sl.txz
+added :: frei0r-20140105-x86_64-1sl.txz
+added :: libmodplug-0.8.8.4-x86_64-1sl.txz
+added :: vo-amrwbenc-0.1.3-x86_64-1sl.txz
+added :: vo-aacenc-0.1.3-x86_64-1sl.txz
+added :: gst-python-0.10.22-x86_64-2sl.txz
+added :: smtube-1.8-x86_64-1sl.txz
+added :: avidemux-qt4-2.5.6-x86_64-1sl.txz
+added :: avidemux-gtk-2.5.6-x86_64-2sl.txz
+added :: avidemux-cli-2.5.6-x86_64-1sl.txz
+added :: obconf-2.0.4-x86_64-1sl.txz
++--------------------------+
+Sun Jan  5 05:04:42 CET 2014
+added :: icedtea-web-1.4.1-x86_64-2sl.txz
+added :: gtk-engines-2.20.2-x86_64-6asl.txz
++--------------------------+
+Sat Jan  4 05:00:58 CET 2014
+added :: aften-0.0.8-x86_64-7sl.txz
+added :: gparted-0.17.0-x86_64-2sl.txz
++--------------------------+
+Fri Jan  3 05:01:03 CET 2014
+added :: kshutdown-3.1beta-x86_64-1sl.txz
+added :: openjre-7u45_b31-x86_64-1sl.txz
+added :: soundtouch-1.7.1-x86_64-1sl.txz
+added :: kaffeine-1.2.2-x86_64-1sl.txz
+added :: vamp-plugin-sdk-2.2.1-x86_64-2sl.txz
+added :: audacity-2.0.5-x86_64-2sl.txz
++--------------------------+
+Tue Dec 31 05:05:52 CET 2013
+added :: gmtk-1.0.8-x86_64-2sl.txz
+added :: gnome-mplayer-1.0.8-x86_64-2sl.txz
+added :: smplayer-0.8.6-x86_64-1sl.txz
++--------------------------+
+Mon Dec 30 05:02:41 CET 2013
+added :: atkmm-2.22.7-x86_64-1sl.txz
+added :: gtkmm-2.24.4-x86_64-1sl.txz
+recom :: google-chrome-31.0.1650.63-x86_64-2sl.txz
++--------------------------+
+Fri Dec 27 05:14:27 CET 2013
+added :: SDL_gfx-2.0.25-x86_64-2sl.txz
+added :: libdc1394-2.2.1-x86_64-1sl.txz
+added :: libgsasl-1.8.0-x86_64-2sl.txz
+added :: mjpegtools-2.1.0-x86_64-1sl.txz
+added :: google-talkplugin-4.9.1.0-x86_64-1sl.txz
+added :: msmtp-1.4.31-x86_64-1sl.txz
+added :: skype_static-4.2.0.11-x86_64-4sl.txz
+added :: beanstalkd-1.9-x86_64-2sl.txz
++--------------------------+
+Wed Dec 25 05:00:50 CET 2013
+added :: xarchiver-0.5.2-x86_64-1sl.txz
+added :: gst-ffmpeg-0.10.13-x86_64-3sl.txz
+added :: NetworkManager-openvpn-0.9.8.4-x86_64-1sl.txz
+added :: p7zip-9.20.1-x86_64-1sl.txz
+added :: pcsxr-1.9.93-x86_64-1sl.txz
++--------------------------+
+Tue Dec 24 05:01:56 CET 2013
+added :: SDL_sound-1.0.3-x86_64-5sl.txz
+added :: libmikmod-3.3.4-x86_64-1sl.txz
+added :: pyxdg-0.25-x86_64-1sl.txz
+added :: smpeg-r399-x86_64-2sl.txz
+added :: tolua++-1.0.93-x86_64-2sl.txz
+added :: vala-0.23.1-x86_64-1sl.txz
+added :: conky-1.9.0-x86_64-3sl.txz
+added :: vice-2.4-x86_64-6sl.txz
+added :: dosbox-0.74-x86_64-3sl.txz
+added :: stellarium-0.12.4-x86_64-1sl.txz
++--------------------------+
+Sun Dec 22 05:03:15 CET 2013
+added :: xclip-0.12-x86_64-2sl.txz
+added :: rhino-1_7R4-x86_64-4sl.txz
+added :: libupnp-1.6.19-x86_64-1sl.txz
+added :: cryptopp-5.6.2-x86_64-1sl.txz
+added :: apache-ant-1.9.2-x86_64-1sl.txz
+added :: openjdk-7u45_b31-x86_64-1sl.txz
+added :: aMule-2.3.1_r10826-x86_64-1sl.txz
+added :: ssmtp-2.64-x86_64-3sl.txz
+added :: sylpheed-3.3.0-x86_64-3sl.txz
+added :: socat-1.7.2.2-x86_64-1sl.txz
+added :: uzbl-2012.05.14-x86_64-5sl.txz
+added :: galculator-2.1.2-x86_64-2sl.txz
+added :: gsimplecal-2.0-x86_64-1sl.txz
+added :: volumeicon-0.5.0-x86_64-1sl.txz
+added :: dmenu-xft-4.5-x86_64-3sl.txz
+added :: dia-0.97.2-x86_64-3sl.txz
++--------------------------+
+Sat Dec 21 05:00:07 CET 2013
+added :: openal-soft-1.15.1-x86_64-1sl.txz
+added :: unrar-5.0.14-x86_64-1sl.txz
++--------------------------+
+Wed Dec 18 05:04:25 CET 2013
+added :: compat32-libraries-3.0-x86_64-1sl.txz
++--------------------------+
+Mon Dec 16 05:00:44 CET 2013
+added :: pangomm-2.34.0-x86_64-2sl.txz
++--------------------------+
+Sun Dec 15 05:01:14 CET 2013
+added :: geoclue-0.12.99-x86_64-1sl.txz
+added :: wxGTK-2.8.12-x86_64-2sl.txz
+added :: libmpeg2-0.5.1-x86_64-6sl.txz
+added :: geoip-1.5.1-x86_64-1sl.txz
+added :: webkitgtk-1.10.2-x86_64-1sl.txz
+added :: wxPython-2.8.12.1-x86_64-3sl.txz
+added :: medit-1.1.1-x86_64-2sl.txz
+added :: lua-5.1.5-x86_64-2sl.txz
+added :: gst-plugins-ugly-0.10.19-x86_64-1sl.txz
+added :: nginx-1.4.4-x86_64-1sl.txz
+added :: fail2ban-0.8.11-x86_64-1sl.txz
+added :: ferm-2.2-x86_64-2sl.txz
+added :: zenity-3.8.0-x86_64-1sl.txz
++--------------------------+
+Sat Dec 14 05:00:37 CET 2013
+added :: cairomm-1.10.0-x86_64-1sl.txz
+upgraded :: libsigc++-2.3.1-x86_64-1sl.txz
++--------------------------+
+Fri Dec 13 05:00:05 CET 2013
+added :: libva-1.2.1-x86_64-1sl.txz
++--------------------------+
+Thu Dec 12 05:04:03 CET 2013
+added :: libmspack-0.4alpha-x86_64-1sl.txz
+added :: flash-player-plugin-11.2.202.332-x86_64-1sl.txz
+added :: imlib2-1.4.5-x86_64-2sl.txz
+added :: google-chrome-31.0.1650.63-x86_64-1sl.txz
+added :: tint2-r652-x86_64-2sl.txz
+added :: openbox-3.5.2-x86_64-1sl.txz
++--------------------------+
+Tue Dec 10 05:01:08 CET 2013
+added :: cabextract-1.4-x86_64-2sl.txz
+added :: MPlayer-1.1.1-x86_64-1sl.txz
++--------------------------+
+Sat Dec  7 05:01:05 CET 2013
+added :: slackyd-1.0.20110808-x86_64-2sl.txz
+added :: speex-1.2rc1-x86_64-2sl.txz
+added :: libevent-2.0.21-x86_64-1sl.txz
+added :: transmission-2.82-x86_64-1sl.txz
+added :: qtransmission-2.77-x86_64-1sl.txz
+upgraded :: libxml++-2.36.0-x86_64-2sl.txz
++--------------------------+
+Fri Dec  6 06:27:06 CET 2013
+added :: requiredbuilder-0.16.5-x86_64-4sl.txz
+added :: a52dec-0.7.4-x86_64-3sl.txz
+added :: djbfft-0.76-x86_64-3sl.txz
+added :: enca-1.15-x86_64-1sl.txz
+added :: glibmm-2.36.2-x86_64-1sl.txz
+added :: id3lib-3.8.3-x86_64-4sl.txz
+added :: libavc1394-0.5.4-x86_64-2sl.txz
+added :: libbluray-0.4.0-x86_64-1sl.txz
+added :: libbs2b-3.1.0-x86_64-3sl.txz
+added :: libconfig-1.4.9-x86_64-2sl.txz
+added :: libdca-0.0.5-x86_64-2sl.txz
+added :: libdv-1.0.0-x86_64-8sl.txz
+added :: libdvdcss-1.2.13-x86_64-1sl.txz
+added :: libdvdnav-4.2.0-x86_64-4sl.txz
+added :: libffado-2.1.0-x86_64-2sl.txz
+added :: libgsm-1.0.13-x86_64-1sl.txz
+added :: libiec61883-1.2.0-x86_64-2sl.txz
+added :: libnut-20131205-x86_64-1sl.txz
+added :: libsigc++-2.2.11-x86_64-2sl.txz
+added :: libvdpau-0.7-x86_64-1sl.txz
+added :: libvpx-1.2.0-x86_64-1sl.txz
+added :: libxml++-2.36.0-x86_64-2sl.txz
+added :: live555-20131205-x86_64-1sl.txz
+added :: mp4v2-2.0.0-x86_64-2sl.txz
+added :: opencore-amr-0.1.3-x86_64-4sl.txz
+added :: openjpeg-2.0.0-x86_64-1sl.txz
+added :: orc-0.4.18-x86_64-1sl.txz
+added :: schroedinger-1.0.11-x86_64-3sl.txz
+added :: recode-3.6-x86_64-5sl.txz
+added :: scons-2.3.0-x86_64-1sl.txz
+added :: mm-common-0.9.6-x86_64-1sl.txz
+added :: dirac-1.0.2-x86_64-6sl.txz
+added :: faac-1.28-x86_64-8sl.txz
+added :: celt-0.11.3-x86_64-1sl.txz
+added :: lame-3.99.5-x86_64-2sl.txz
+added :: jack-audio-connection-kit-0.121.3-x86_64-2sl.txz
+added :: faad2-2.7-x86_64-4sl.txz
+added :: xvidcore-1.3.2-x86_64-2sl.txz
+added :: x264-20131204-x86_64-1sl.txz
+added :: twolame-0.3.13-x86_64-3sl.txz
+added :: rtmpdump-2.3-x86_64-4sl.txz
+added :: ladspa_sdk-1.13-x86_64-8sl.txz
++--------------------------+
+Thu Nov 28 13:40:34 CET 2013
+added :: bar-1.11.1-x86_64-3sl.txz

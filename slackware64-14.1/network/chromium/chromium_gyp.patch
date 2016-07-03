@@ -1,0 +1,21 @@
+diff -rupN build/gyp_chromium build.new/gyp_chromium
+--- build/gyp_chromium	2014-04-02 21:03:54.000000000 +0200
++++ build.new/gyp_chromium	2014-05-06 12:32:49.684373501 +0200
+@@ -39,8 +39,6 @@ sys.path.insert(1, os.path.join(chrome_s
+ sys.path.insert(1, os.path.join(chrome_src, 'third_party', 'WebKit',
+     'Source', 'build', 'scripts'))
+ 
+-import find_depot_tools
+-
+ # On Windows, Psyco shortens warm runs of build/gyp_chromium by about
+ # 20 seconds on a z600 machine with 12 GB of RAM, from 90 down to 70
+ # seconds.  Conversely, memory usage of build/gyp_chromium with Psyco
+@@ -477,8 +475,6 @@ if __name__ == '__main__':
+     args.append('--check')
+ 
+   supplemental_includes = GetSupplementalFiles()
+-  if not RunGN(supplemental_includes):
+-    sys.exit(1)
+   args.extend(
+       ['-I' + i for i in additional_include_files(supplemental_includes, args)])
+ 

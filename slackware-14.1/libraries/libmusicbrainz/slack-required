@@ -1,0 +1,7 @@
+cxxlibs >= 6.0.18-i486-1 | gcc-g++ >= 4.8.2-i486-1
+expat >= 2.1.0-i486-1
+gcc >= 4.8.2-i486-1
+glibc-solibs >= 2.17-i486-7
+neon >= 0.29.6-i486-2
+openssl >= 1.0.1e-i486-1 | openssl-solibs >= 1.0.1e-i486-1
+zlib >= 1.2.8-i486-1

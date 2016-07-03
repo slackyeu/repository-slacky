@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+               |-----handy-ruler------------------------------------------------------|
+libcompizconfig: Libcompizconfig (Compiz configuration system library)
+libcompizconfig:
+libcompizconfig: Compiz Fusion is the result merge between the Compiz community
+libcompizconfig: plugin set "Compiz Extras" the parts of the Beryl project that
+libcompizconfig: are independent of the window manager core.The two communities
+libcompizconfig: have reunited to create a user experience for Linux that rival
+libcompizconfig: anything available on other platforms.
+libcompizconfig:
+libcompizconfig:
+libcompizconfig:
+libcompizconfig:

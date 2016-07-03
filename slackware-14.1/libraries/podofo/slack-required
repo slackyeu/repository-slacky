@@ -1,0 +1,16 @@
+bzip2 >= 1.0.6-i486-1
+cxxlibs >= 6.0.18-i486-1 | gcc-g++ >= 4.8.2-i486-1
+expat >= 2.1.0-i486-1
+fontconfig >= 2.10.93-i486-1
+freetype >= 2.5.0.1-i486-1
+gcc >= 4.8.2-i486-1
+glibc-solibs >= 2.17-i486-7
+libidn >= 1.25-i486-2
+libjpeg >= v8a-i486-2_slack14.1
+libpng >= 1.4.12-i486-1
+libtiff >= 3.9.7-i486-1
+lua >= 5.1.5-i486-2sl
+ncurses >= 5.9-i486-2
+openssl >= 1.0.1f-i486-1_slack14.1 | openssl-solibs >= 1.0.1f-i486-1_slack14.1
+readline >= 5.2-i486-4
+zlib >= 1.2.8-i486-1

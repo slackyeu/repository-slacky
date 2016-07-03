@@ -1,0 +1,26 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+          |-----handy-ruler------------------------------------------------------|
+yelp-tools: yelp-tools - documentation xslt stylesheets
+yelp-tools:
+yelp-tools: yelp-tools is a collection of scripts and build utilities to help 
+yelp-tools: create, manage, and publish documentation for Yelp and the web. 
+yelp-tools: Most of the heavy lifting is done by packages like yelp-xsl and 
+yelp-tools: itstool. This package just wraps things up in a developer-friendly 
+yelp-tools: way.
+yelp-tools:
+yelp-tools:
+yelp-tools: 
+yelp-tools: http://projects.gnome.org/yelp/
+
+
+
+
+
+
+
