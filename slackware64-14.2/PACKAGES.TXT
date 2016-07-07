@@ -1,0 +1,22 @@
+PACKAGES.TXT;  Sat Jul  2 17:16:42 CEST 2016
+
+This file provides details on the packages found on this site
+Total size of all packages (compressed) :  0 MB
+Total size of all packages (uncompressed) :  0 MB
+
+PACKAGE NAME:  unrar-5.0.14-x86_64-2sl.txz 
+PACKAGE LOCATION:  ./system/unrar/5.0.14
+PACKAGE SIZE (compressed):  150 K
+PACKAGE SIZE (uncompressed):  580 K
+PACKAGE REQUIRED:  
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+unrar: unrar (unpacker for the RAR archive format)
+unrar:
+unrar: WinRAR is a powerful archive manager. Unrar is an opensource subset
+unrar: of RAR from rarlab that can uncompress RAR images.
+unrar:
+unrar: unrar home: http://www.rarlab.com/rar_add.htm
+unrar:
+

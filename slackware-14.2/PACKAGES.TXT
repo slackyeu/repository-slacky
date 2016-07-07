@@ -1,0 +1,53 @@
+PACKAGES.TXT;  Wed Jul  6 05:39:02 CEST 2016
+
+This file provides details on the packages found on this site
+Total size of all packages (compressed) :  1 MB
+Total size of all packages (uncompressed) :  6 MB
+
+PACKAGE NAME:  p7zip-15.14.1-i486-3sl.txz 
+PACKAGE LOCATION:  ./system/p7zip/15.14.1
+PACKAGE SIZE (compressed):  1505 K
+PACKAGE SIZE (uncompressed):  5950 K
+PACKAGE REQUIRED:  gcc >= 5.3.0-i586-3,gcc-g++ >= 5.3.0-i586-3,glibc-solibs >= 2.23-i586-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+p7zip: p7zip (7-Zip Highest Compression File Archiver)
+p7zip:
+p7zip: p7zip is a quick  port of 7z.exe and 7za.exe  (command  line
+p7zip: version of 7zip, whose homepage is http://www.7-zip.org) for Unix.
+p7zip: 7-Zip is a file archiver with highest compression ratio. Since 4.10,
+p7zip: p7zip (like 7-zip) supports little-endian and big-endian machines.
+p7zip:
+
+PACKAGE NAME:  unrar-5.0.14-i486-2sl.txz 
+PACKAGE LOCATION:  ./system/unrar/5.0.14
+PACKAGE SIZE (compressed):  157 K
+PACKAGE SIZE (uncompressed):  620 K
+PACKAGE REQUIRED:  gcc >= 5.3.0-i586-3,gcc-g++ >= 5.3.0-i586-3,glibc-solibs >= 2.23-i586-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+unrar: unrar (unpacker for the RAR archive format)
+unrar:
+unrar: WinRAR is a powerful archive manager. Unrar is an opensource subset
+unrar: of RAR from rarlab that can uncompress RAR images.
+unrar:
+unrar: unrar home: http://www.rarlab.com/rar_add.htm
+unrar:
+
+PACKAGE NAME:  requiredbuilder-0.16.5-i486-5sl.txz 
+PACKAGE LOCATION:  ./utilities/requiredbuilder/0.16.5
+PACKAGE SIZE (compressed):  26 K
+PACKAGE SIZE (uncompressed):  100 K
+PACKAGE REQUIRED:  perl >= 5.22.2-i586-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+requiredbuilder: RequiredBuilder 
+requiredbuilder:
+requiredbuilder: RequiredBuilder is a simple tool to help Slackware packages
+requiredbuilder: developers finding dependencies.
+requiredbuilder: 
+requiredbuilder:
+

@@ -1,0 +1,8 @@
+Wed Jul  6 05:39:02 CEST 2016
+added :: requiredbuilder-0.16.5-i486-5sl.txz
++--------------------------+
+Tue Jul  5 05:39:03 CEST 2016
+added :: p7zip-15.14.1-i486-3sl.txz
++--------------------------+
+Sat Jul  2 17:16:41 CEST 2016
+added :: unrar-5.0.14-i486-2sl.txz
