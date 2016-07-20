@@ -1,2 +1,10 @@
+Wed Jul 20 10:17:29 CEST 2016
+added :: darkplaces-20140513-x86_64-2sl.txz
+added :: pcsxr-1.9.93-x86_64-2sl.txz
+added :: wxGTK-2.8.12-x86_64-3sl.txz
+added :: imlib2-1.4.9-x86_64-1sl.txz
+added :: slapt-get-0.10.2t-x86_64-1sl.txz
+added :: requiredbuilder-0.16.5-x86_64-5sl.txz
++--------------------------+
 Sat Jul  2 17:16:42 CEST 2016
 added :: unrar-5.0.14-x86_64-2sl.txz

@@ -1,8 +1,92 @@
-PACKAGES.TXT;  Sat Jul  2 17:16:42 CEST 2016
+PACKAGES.TXT;  Wed Jul 20 10:17:29 CEST 2016
 
 This file provides details on the packages found on this site
-Total size of all packages (compressed) :  0 MB
-Total size of all packages (uncompressed) :  0 MB
+Total size of all packages (compressed) :  6 MB
+Total size of all packages (uncompressed) :  32 MB
+
+PACKAGE NAME:  darkplaces-20140513-x86_64-2sl.txz 
+PACKAGE LOCATION:  ./games/darkplaces/20140513
+PACKAGE SIZE (compressed):  1586 K
+PACKAGE SIZE (uncompressed):  9800 K
+PACKAGE REQUIRED:  alsa-lib >= 1.1.1-x86_64-2,glibc-solibs >= 2.23-x86_64-1,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXpm >= 3.5.11-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libjpeg-turbo >= 1.5.0-x86_64-1,libxcb >= 1.11.1-x86_64-1,sdl >= 1.2.15-x86_64-4,svgalib >= 1.9.25-x86_64-3,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+darkplaces: darkplaces (crossplatform Quake modification)
+darkplaces:
+darkplaces: DarkPlaces is a gameplay modification and a source port engine
+darkplaces: based on the computer game Quake. It adds enhanced network code,
+darkplaces: with asynchronous delta compression, a built in server browser,
+darkplaces: real-time lighting, and bump mapping. It makes use of the OpenGL
+darkplaces: Shading Language and supports Ogg Vorbis.
+darkplaces:
+
+PACKAGE NAME:  pcsxr-1.9.93-x86_64-2sl.txz 
+PACKAGE LOCATION:  ./games/pcsxr/1.9.93
+PACKAGE SIZE (compressed):  709 K
+PACKAGE SIZE (uncompressed):  2630 K
+PACKAGE REQUIRED:  at-spi2-atk >= 2.18.1-x86_64-1,at-spi2-core >= 2.18.3-x86_64-1,atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+3 >= 3.18.9-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXtst >= 1.2.2-x86_64-2,libXv >= 1.0.10-x86_64-2,libXxf86vm >= 1.1.4-x86_64-2,libcdio >= 0.93-x86_64-1,libdrm >= 2.4.68-x86_64-1,libepoxy >= 1.3.1-x86_64-1,libffi >= 3.2.1-x86_64-1,libpng >= 1.6.23-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,sdl >= 1.2.15-x86_64-4,svgalib >= 1.9.25-x86_64-3,util-linux >= 2.28-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+pcsxr: pcsxr (PSX Emulator)
+pcsxr:
+pcsxr: PCSX-Reloaded is a PlayStation Emulator based on PCSX-df 1.9, with
+pcsxr: support for Windows, GNU/Linux and Mac OS X as well as many bugfixes
+pcsxr: and improvements.
+pcsxr:
+pcsxr: 
+pcsxr:
+
+PACKAGE NAME:  imlib2-1.4.9-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./libraries/imlib2/1.4.9
+PACKAGE SIZE (compressed):  556 K
+PACKAGE SIZE (uncompressed):  1430 K
+PACKAGE REQUIRED:  bzip2 >= 1.0.6-x86_64-1,freetype >= 2.6.3-x86_64-1,giflib >= 5.1.1-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libid3tag >= 0.15.1b-x86_64-4,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libtiff >= 4.0.6-x86_64-1,libxcb >= 1.11.1-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+imlib2: Imlib2 (Image Loading And Rendering Library)
+imlib2:
+imlib2: Imlib is a display  depth-independent  image  loading and rendering
+imlib2: library.  Imlib is designed to simplify and speed up the process of
+imlib2: loading images  and  obtaining  X  Window System  drawables.  Imlib
+imlib2: provides many simple manipulation  routines  which  can be used for
+imlib2: common operations.
+imlib2:
+
+PACKAGE NAME:  wxGTK-2.8.12-x86_64-3sl.txz 
+PACKAGE LOCATION:  ./libraries/wxGTK/2.8.12
+PACKAGE SIZE (compressed):  3658 K
+PACKAGE SIZE (uncompressed):  17620 K
+PACKAGE REQUIRED:  atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gcc >= 5.3.0-x86_64-3,gcc-g++ >= 5.3.0-x86_64-3,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,glu >= 9.0.0-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libtiff >= 4.0.6-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,sdl >= 1.2.15-x86_64-4,svgalib >= 1.9.25-x86_64-3,util-linux >= 2.28-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+wxGTK: wxGTK (wxGTK application framework)
+wxGTK:
+wxGTK: wxGTK application framework software development, including
+wxGTK: GUIs, threads, sockets, database, file system access, etc.
+wxGTK:
+wxGTK: 
+wxGTK:
+
+PACKAGE NAME:  slapt-get-0.10.2t-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./system/slapt-get/0.10.2t
+PACKAGE SIZE (compressed):  171 K
+PACKAGE SIZE (uncompressed):  1030 K
+PACKAGE REQUIRED:  curl >= 7.49.1-x86_64-1,cyrus-sasl >= 2.1.26-x86_64-1,glibc-solibs >= 2.23-x86_64-1,gpgme >= 1.6.0-x86_64-1,libassuan >= 2.4.2-x86_64-1,libgpg-error >= 1.23-x86_64-1,libidn >= 1.30-x86_64-1,libssh2 >= 1.7.0-x86_64-1,openldap-client >= 2.4.42-x86_64-1,openssl-solibs >= 1.0.2h-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+slapt-get: Slapt-Get (Slackware APT Like System)
+slapt-get:
+slapt-get: Slapt-Get is  an APT like system for Slackware  package  management
+slapt-get: It allows  one to search Slackware mirrors  and third party sources
+slapt-get: for packages, compare  them  with  installed  packages, install new
+slapt-get: packages, or upgrade all installed packages. slapt-get is great for
+slapt-get: scripting as well.
+slapt-get:
 
 PACKAGE NAME:  unrar-5.0.14-x86_64-2sl.txz 
 PACKAGE LOCATION:  ./system/unrar/5.0.14
@@ -19,4 +103,19 @@ unrar: of RAR from rarlab that can uncompress RAR images.
 unrar:
 unrar: unrar home: http://www.rarlab.com/rar_add.htm
 unrar:
+
+PACKAGE NAME:  requiredbuilder-0.16.5-x86_64-5sl.txz 
+PACKAGE LOCATION:  ./utilities/requiredbuilder/0.16.5
+PACKAGE SIZE (compressed):  26 K
+PACKAGE SIZE (uncompressed):  100 K
+PACKAGE REQUIRED:  perl >= 5.22.2-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+requiredbuilder: RequiredBuilder 
+requiredbuilder:
+requiredbuilder: RequiredBuilder is a simple tool to help Slackware packages
+requiredbuilder: developers finding dependencies.
+requiredbuilder: 
+requiredbuilder:
 
