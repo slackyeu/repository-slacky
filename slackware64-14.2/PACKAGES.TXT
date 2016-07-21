@@ -1,8 +1,8 @@
-PACKAGES.TXT;  Wed Jul 20 10:17:29 CEST 2016
+PACKAGES.TXT;  Thu Jul 21 05:39:11 CEST 2016
 
 This file provides details on the packages found on this site
-Total size of all packages (compressed) :  6 MB
-Total size of all packages (uncompressed) :  32 MB
+Total size of all packages (compressed) :  22 MB
+Total size of all packages (uncompressed) :  110 MB
 
 PACKAGE NAME:  darkplaces-20140513-x86_64-2sl.txz 
 PACKAGE LOCATION:  ./games/darkplaces/20140513
@@ -38,6 +38,79 @@ pcsxr:
 pcsxr: 
 pcsxr:
 
+PACKAGE NAME:  OpenAL-1.17.2-x86_64-2sl.txz 
+PACKAGE LOCATION:  ./libraries/OpenAL/1.17.2
+PACKAGE SIZE (compressed):  395 K
+PACKAGE SIZE (uncompressed):  1110 K
+PACKAGE REQUIRED:  bzip2 >= 1.0.6-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gcc >= 5.3.0-x86_64-3,gcc-g++ >= 5.3.0-x86_64-3,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXrender >= 0.9.9-x86_64-1,libffi >= 3.2.1-x86_64-1,libpng >= 1.6.23-x86_64-1,libxcb >= 1.11.1-x86_64-1,qt >= 4.8.7-x86_64-4,util-linux >= 2.28-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+OpenAL: OpenAL (OpenAL 3D audio API)
+OpenAL:
+OpenAL: OpenAL Soft  is  a cross-platform  software  implementation of the
+OpenAL: OpenAL 3D  audio API. It's  built off  of the open-sourced Windows
+OpenAL: version available originally from the SVN repository at openal.org
+OpenAL:
+
+PACKAGE NAME:  cryptopp-5.6.2-x86_64-2sl.txz 
+PACKAGE LOCATION:  ./libraries/cryptopp/5.6.2
+PACKAGE SIZE (compressed):  2275 K
+PACKAGE SIZE (uncompressed):  21110 K
+PACKAGE REQUIRED:  gcc >= 5.3.0-x86_64-3,gcc-g++ >= 5.3.0-x86_64-3,glibc-solibs >= 2.23-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+cryptopp: Cryptopp
+cryptopp:
+cryptopp: Crypto++ Library is a free C++
+cryptopp: class library of cryptographic schemes.
+cryptopp:
+
+PACKAGE NAME:  flashplayer-plugin-11.2.202.632-x86_64-3sl.txz 
+PACKAGE LOCATION:  ./libraries/flashplayer-plugin/11.2.202.632
+PACKAGE SIZE (compressed):  5283 K
+PACKAGE SIZE (uncompressed):  19970 K
+PACKAGE REQUIRED:  atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gcc >= 5.3.0-x86_64-3,gcc-g++ >= 5.3.0-x86_64-3,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXft >= 2.3.2-x86_64-3,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXpm >= 3.5.11-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXt >= 1.1.5-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libpng >= 1.6.23-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,mozilla-nss >= 3.23-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,qt >= 4.8.7-x86_64-4,util-linux >= 2.28-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+flashplayer-plugin: Flash Player
+flashplayer-plugin:
+flashplayer-plugin: Adobe Systems Incorporated
+flashplayer-plugin: Flash Player 11 for Linux
+flashplayer-plugin: 
+flashplayer-plugin:
+
+PACKAGE NAME:  freealut-1.1.0-x86_64-3sl.txz 
+PACKAGE LOCATION:  ./libraries/freealut/1.1.0
+PACKAGE SIZE (compressed):  41 K
+PACKAGE SIZE (uncompressed):  160 K
+PACKAGE REQUIRED:  OpenAL >= 1.17.2-x86_64-2sl,glibc-solibs >= 2.23-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+freealut: freealut (The OpenAL Utility Toolkit (ALUT))
+freealut:
+freealut: freealut is a free implementation of OpenAL's ALUT standard.
+freealut:
+freealut: http://www.openal.org/
+freealut:
+
+PACKAGE NAME:  gmtk-1.0.8-x86_64-3sl.txz 
+PACKAGE LOCATION:  ./libraries/gmtk/1.0.8
+PACKAGE SIZE (compressed):  72 K
+PACKAGE SIZE (uncompressed):  370 K
+PACKAGE REQUIRED:  alsa-lib >= 1.1.1-x86_64-2,atk >= 2.18.0-x86_64-1,attr >= 2.4.47-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,expat >= 2.1.0-x86_64-1,flac >= 1.3.1-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,json-c >= 0.12-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXtst >= 1.2.2-x86_64-2,libXxf86vm >= 1.1.4-x86_64-2,libasyncns >= 0.8-x86_64-1,libcap >= 2.22-x86_64-1,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libogg >= 1.3.2-x86_64-1,libpng >= 1.6.23-x86_64-1,libsndfile >= 1.0.26-x86_64-1,libvorbis >= 1.3.5-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,pulseaudio >= 9.0-x86_64-1,util-linux >= 2.28-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+gmtk: GMTK (Gnome-Mplayer Toolkit)
+gmtk:
+gmtk: Includes:  libgmlib - a set of functions that support non-graphical
+gmtk: operations libgmtk - a set of gtk widgets to use with gnome-mplayer
+gmtk:
+
 PACKAGE NAME:  imlib2-1.4.9-x86_64-1sl.txz 
 PACKAGE LOCATION:  ./libraries/imlib2/1.4.9
 PACKAGE SIZE (compressed):  556 K
@@ -55,6 +128,39 @@ imlib2: provides many simple manipulation  routines  which  can be used for
 imlib2: common operations.
 imlib2:
 
+PACKAGE NAME:  libupnp-1.6.20-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./libraries/libupnp/1.6.20
+PACKAGE SIZE (compressed):  153 K
+PACKAGE SIZE (uncompressed):  650 K
+PACKAGE REQUIRED:  glibc-solibs >= 2.23-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+libupnp: Libupnp (Linux SDK for UPnP Devices)
+libupnp:
+libupnp: UPnP is an architecture  that enables  discovery, event notification
+libupnp: and control of devices on a network, independent of operating system
+libupnp: programming language, or physical network connection.  UPnP is based
+libupnp: on common Internet standards and specifications such as TCP/IP, HTTP
+libupnp: and XML.
+libupnp:
+
+PACKAGE NAME:  plib-1.8.5-x86_64-2sl.txz 
+PACKAGE LOCATION:  ./libraries/plib/1.8.5
+PACKAGE SIZE (compressed):  634 K
+PACKAGE SIZE (uncompressed):  4170 K
+PACKAGE REQUIRED:  
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+plib: plib (Steve's Portable Game Library)
+plib:
+plib: PLIB includes sound effects, music, a complete 3D engine, font
+plib: rendering, a simple Windowing library, a game scripting
+plib: language, a GUI, networking, 3D math library and a collection
+plib: of handy utility functions.
+plib:
+
 PACKAGE NAME:  wxGTK-2.8.12-x86_64-3sl.txz 
 PACKAGE LOCATION:  ./libraries/wxGTK/2.8.12
 PACKAGE SIZE (compressed):  3658 K
@@ -70,6 +176,154 @@ wxGTK: GUIs, threads, sockets, database, file system access, etc.
 wxGTK:
 wxGTK: 
 wxGTK:
+
+PACKAGE NAME:  gnome-mplayer-1.0.8-x86_64-3sl.txz 
+PACKAGE LOCATION:  ./multimedia/gnome-mplayer/1.0.8
+PACKAGE SIZE (compressed):  332 K
+PACKAGE SIZE (uncompressed):  1510 K
+PACKAGE REQUIRED:  alsa-lib >= 1.1.1-x86_64-2,atk >= 2.18.0-x86_64-1,attr >= 2.4.47-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,dbus-glib >= 0.106-x86_64-1,expat >= 2.1.0-x86_64-1,flac >= 1.3.1-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gcc-g++ >= 5.3.0-x86_64-3,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gmtk >= 1.0.8-x86_64-3sl,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,icu4c >= 56.1-x86_64-2,json-c >= 0.12-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXScrnSaver >= 1.2.2-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXtst >= 1.2.2-x86_64-2,libXxf86vm >= 1.1.4-x86_64-2,libasyncns >= 0.8-x86_64-1,libcap >= 2.22-x86_64-1,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libgpod >= 0.8.3-x86_64-2,libimobiledevice >= 1.2.0-x86_64-1,libnotify >= 0.7.6-x86_64-1,libogg >= 1.3.2-x86_64-1,libplist >= 1.12-x86_64-1,libpng >= 1.6.23-x86_64-1,libsndfile >= 1.0.26-x86_64-1,libusbmuxd >= 1.0.10-x86_64-1,libvorbis >= 1.3.5-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxml2 >= 2.9.4-x86_64-2,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,openssl-solibs >= 1.0.2h-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,pulseaudio >= 9.0-x86_64-1,sqlite >= 3.13.0-x86_64-1,util-linux >= 2.28-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+gnome-mplayer: Gnome Mplayer (GTK2+ MPlayer Interface)
+gnome-mplayer:
+gnome-mplayer: GNOME MPlayer is a simple GUI for MPlayer. It is intended to be a
+gnome-mplayer: nice  tight player  and provide  a simple  and clean interface to
+gnome-mplayer: MPlayer. GNOME  MPlayer  has a rich API  that is exposed via DBus
+gnome-mplayer: Using  DBus  you  can  control  a single or multiple instances of
+gnome-mplayer: GNOME MPlayer from a single command.
+gnome-mplayer:
+
+PACKAGE NAME:  lame-3.99.5-x86_64-3sl.txz 
+PACKAGE LOCATION:  ./multimedia/lame/3.99.5
+PACKAGE SIZE (compressed):  408 K
+PACKAGE SIZE (uncompressed):  1670 K
+PACKAGE REQUIRED:  glibc-solibs >= 2.23-x86_64-1,ncurses >= 5.9-x86_64-4
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+lame: LAME (Ain't an Mp3 Encoder)
+lame:
+lame: LAME is an educational tool to be used for learning about MP3 
+lame: encoding.
+lame:
+
+PACKAGE NAME:  twolame-0.3.13-x86_64-4sl.txz 
+PACKAGE LOCATION:  ./multimedia/twolame/0.3.13
+PACKAGE SIZE (compressed):  101 K
+PACKAGE SIZE (uncompressed):  520 K
+PACKAGE REQUIRED:  flac >= 1.3.1-x86_64-1,glibc-solibs >= 2.23-x86_64-1,libogg >= 1.3.2-x86_64-1,libsndfile >= 1.0.26-x86_64-1,libvorbis >= 1.3.5-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+twolame: TwoLAME (MPEG Audio Layer 2 Encoder)
+twolame:
+twolame: Based on tooLAME by Mike Cheng, which in turn is based upon the ISO
+twolame: dist10 code and portions of LAME.
+twolame:
+
+PACKAGE NAME:  x264-20160613-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./multimedia/x264/20160613
+PACKAGE SIZE (compressed):  439 K
+PACKAGE SIZE (uncompressed):  2170 K
+PACKAGE REQUIRED:  glibc-solibs >= 2.23-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+x264: X264 (H264/AVC video streams library)
+x264:
+x264: The code is written  from scratch by  Laurent Aimar, Loren Merritt
+x264: Eric Petit (OS X), Min  Chen (vfw/asm),  Justin  Clay  (vfw), Måns
+x264: Rullgård, Radek Czyz, Christian Heine  (asm), Alex  Izvorski (asm)
+x264: and Alex Wright. It is released under the terms of the GPL license
+x264:
+
+PACKAGE NAME:  xvidcore-1.3.4-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./multimedia/xvidcore/1.3.4
+PACKAGE SIZE (compressed):  204 K
+PACKAGE SIZE (uncompressed):  730 K
+PACKAGE REQUIRED:  glibc-solibs >= 2.23-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+xvidcore: XviD (MPEG-4 Compliant Video Codec)
+xvidcore:
+xvidcore: Xvid is an ISO MPEG-4 compliant video codec. It is an open source
+xvidcore: project that  is developed and maintained by people from all over
+xvidcore: the world. Xvid  claims to be the best currently available MPEG-4
+xvidcore: video codec solution, and it is free software.
+xvidcore:
+
+PACKAGE NAME:  aMule-2.3.1_r10933-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./network/aMule/2.3.1_r10933
+PACKAGE SIZE (compressed):  3824 K
+PACKAGE SIZE (uncompressed):  17640 K
+PACKAGE REQUIRED:  atk >= 2.18.0-x86_64-1,binutils >= 2.26-x86_64-3,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gcc >= 5.3.0-x86_64-3,gcc-g++ >= 5.3.0-x86_64-3,gd >= 2.2.1-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXpm >= 3.5.11-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libtermcap >= 1.2.3-x86_64-7,libtiff >= 4.0.6-x86_64-1,libupnp >= 1.6.20-x86_64-1sl,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,perl >= 5.22.2-x86_64-1,pixman >= 0.34.0-x86_64-1,readline >= 6.3-x86_64-2,util-linux >= 2.28-x86_64-1,wxGTK >= 2.8.12-x86_64-3sl,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+aMule: aMule
+aMule:
+aMule: The "all-platform eMule", it is a eMule-like client for ed2k network,
+aMule: supporting Linux, *BSD platforms, Solaris, *MacOSX and *Win32.
+aMule: It was forked from xMule project back in september 2003
+aMule: (not related to it anymore, except little bits of old code),
+aMule: to drive it to a brand new direction and quality. Uses wxWidgets
+aMule: (formely known as wxWindows) for multiplatform support.
+aMule:
+
+PACKAGE NAME:  beanstalkd-1.10-x86_64-3sl.txz 
+PACKAGE LOCATION:  ./network/beanstalkd/1.10
+PACKAGE SIZE (compressed):  37 K
+PACKAGE SIZE (uncompressed):  130 K
+PACKAGE REQUIRED:  glibc-solibs >= 2.23-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+beanstalkd: Beanstalk is a simple, fast work queue.
+beanstalkd:
+beanstalkd: Its interface is generic, but was originally designed for reducing 
+beanstalkd: the latency of page views in high-volume web applications by running 
+beanstalkd: time-consuming tasks asynchronously.
+beanstalkd: 
+beanstalkd:
+beanstalkd: 
+beanstalkd:
+
+PACKAGE NAME:  bleachbit-1.12-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./system/bleachbit/1.12
+PACKAGE SIZE (compressed):  362 K
+PACKAGE SIZE (uncompressed):  2400 K
+PACKAGE REQUIRED:  
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+bleachbit: BleachBit (PyGTK PC Junk Cleaner)
+bleachbit:
+bleachbit: BleachBit deletes  unnecessary  files  to free  valuable disk  space
+bleachbit: maintain  privacy, and  remove junk. Rid  your system of old clutter
+bleachbit: including  cache, cookies,  Internet  history,  localizations,  logs
+bleachbit: temporary  files,  and broken  shortcuts. Designed for Linux systems
+bleachbit: it wipes  clean Adobe Reader, APT, Bash,  Beagle, Chromium, Epiphany
+bleachbit: Firefox, Flash, GIMP, Google Earth, Java, KDE, OpenOffice.org, Opera
+bleachbit: RealPlayer, Second Life viewer, Skype, VIM, XChat, Yum, and more.
+bleachbit:
+
+PACKAGE NAME:  p7zip-16.02-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./system/p7zip/16.02
+PACKAGE SIZE (compressed):  1255 K
+PACKAGE SIZE (uncompressed):  5780 K
+PACKAGE REQUIRED:  glibc-solibs >= 2.23-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+p7zip: p7zip (file archiver with high compression rates)
+p7zip:
+p7zip: 7-Zip is a file archiver with high compression ratio.
+p7zip: The POSIX/Linux commandline version is called p7zip.
+p7zip:
+p7zip: 
+p7zip:
 
 PACKAGE NAME:  slapt-get-0.10.2t-x86_64-1sl.txz 
 PACKAGE LOCATION:  ./system/slapt-get/0.10.2t
