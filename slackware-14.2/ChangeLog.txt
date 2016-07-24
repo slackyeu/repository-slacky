@@ -1,3 +1,18 @@
+Sun Jul 24 05:39:12 CEST 2016
+added :: aMule-2.3.1_r10933-i486-1sl.txz
+added :: OpenAL-1.17.2-i486-2sl.txz
+added :: flashplayer-plugin-11.2.202.632-i486-1sl.txz
+added :: imlib2-1.4.9-i486-1sl.txz
+added :: libupnp-1.6.20-i486-1sl.txz
+added :: plib-1.8.5-i486-2sl.txz
+added :: cryptopp-5.6.2-i486-2sl.txz
+added :: gmtk-1.0.8-i486-3sl.txz
+added :: wxGTK-2.8.12-i486-3sl.txz
+added :: freealut-1.1.0-i486-3sl.txz
+added :: gslapt-0.5.4c-i486-1sl.txz
+added :: bleachbit-1.12-i486-1sl.txz
+added :: slapt-get-0.10.2t-i486-1sl.txz
++--------------------------+
 Wed Jul  6 05:39:02 CEST 2016
 added :: requiredbuilder-0.16.5-i486-5sl.txz
 +--------------------------+
