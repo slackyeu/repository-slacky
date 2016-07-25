@@ -2,11 +2,11 @@
 
 # Heavily based on the Slackware 14.1 SlackBuild
 
-# Written by Loris Vincenzi ( http://www.slacky.eu ) 
+# Written by Andrea Sciucca ( gohanz AT infinito.it )
 # Last build from Savino Pio Liguori aka Blallo ( savino.liguori [@t] gmail D0t c0m )
 
-# Slackware build script for lame
-# Official Site: http://lame.sourceforge.net/
+# Slackware build script for twolame
+# Official Site: http://www.twolame.org
 
 # Redistribution and use of this script, with or without modification, is
 # permitted provided that the following conditions are met:
@@ -31,15 +31,15 @@ set -e
 
 # Basic information.
 
-PKGNAME=lame
-VERSION=${VERSION:-3.99.5}
+PKGNAME=twolame
+VERSION=${VERSION:-0.3.13}
 ARCH=${ARCH:-$(uname -m)}
 BUILD=${BUILD:-4}
 TAG=${TAG:-sl}
-SOURCE="http://downloads.sourceforge.net/project/$PKGNAME/$PKGNAME/3.99/$PKGNAME-$VERSION.tar.gz"
+SOURCE="http://downloads.sourceforge.net/twolame/twolame-$VERSION.tar.gz"
 TAR=
 DIR=
-DOCS="API COPYING ChangeLog DEFINES HACKING INSTALL* LICENSE README* STYLEGUIDE TODO USAGE"
+DOCS="AUTHORS ChangeLog COPYING README* TODO"
 SLKFILES=""
 
 # Automatically determine the architecture we're building on:
@@ -85,12 +85,6 @@ cd $DIR
 chown -R root:root .
 chmod -R u+w,go+r-w,a-s .
 
-# Fix for the newer gcc
-# http://www.linuxfromscratch.org/blfs/view/svn/multimedia/lame.html
-case $(uname -m) in
-  i?86) sed -i -e '/xmmintrin\.h/d' configure ;;
-esac
-
 CFLAGS="$CFLAGS $SLKCFLAGS" \
 CXXFLAGS="$CXXFLAGS $SLKCFLAGS" \
 ./configure \
@@ -107,10 +101,6 @@ make install DESTDIR=$PKG
 
 # Documentation
 mkdir -p $PKG/usr/doc/$PKGNAME-$VERSION
-
-# move html doc
-mv $PKG/usr/share/doc/$PKGNAME/html $PKG/usr/doc/$PKGNAME-$VERSION
-rm -r $PKG/usr/share/
 
 for DC in $DOCS;do
 	[ -e $DC ]&&cp -r $DC $PKG/usr/doc/$PKGNAME-$VERSION/

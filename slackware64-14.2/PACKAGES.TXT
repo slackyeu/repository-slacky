@@ -1,8 +1,8 @@
-PACKAGES.TXT;  Thu Jul 21 05:39:11 CEST 2016
+PACKAGES.TXT;  Mon Jul 25 05:39:34 CEST 2016
 
 This file provides details on the packages found on this site
-Total size of all packages (compressed) :  22 MB
-Total size of all packages (uncompressed) :  110 MB
+Total size of all packages (compressed) :  24 MB
+Total size of all packages (uncompressed) :  124 MB
 
 PACKAGE NAME:  darkplaces-20140513-x86_64-2sl.txz 
 PACKAGE LOCATION:  ./games/darkplaces/20140513
@@ -25,7 +25,7 @@ PACKAGE NAME:  pcsxr-1.9.93-x86_64-2sl.txz
 PACKAGE LOCATION:  ./games/pcsxr/1.9.93
 PACKAGE SIZE (compressed):  709 K
 PACKAGE SIZE (uncompressed):  2630 K
-PACKAGE REQUIRED:  at-spi2-atk >= 2.18.1-x86_64-1,at-spi2-core >= 2.18.3-x86_64-1,atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+3 >= 3.18.9-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXtst >= 1.2.2-x86_64-2,libXv >= 1.0.10-x86_64-2,libXxf86vm >= 1.1.4-x86_64-2,libcdio >= 0.93-x86_64-1,libdrm >= 2.4.68-x86_64-1,libepoxy >= 1.3.1-x86_64-1,libffi >= 3.2.1-x86_64-1,libpng >= 1.6.23-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,sdl >= 1.2.15-x86_64-4,svgalib >= 1.9.25-x86_64-3,util-linux >= 2.28-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE REQUIRED:  at-spi2-atk >= 2.18.1-x86_64-1,at-spi2-core >= 2.18.3-x86_64-1,atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+3 >= 3.18.9-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXtst >= 1.2.2-x86_64-2,libXv >= 1.0.10-x86_64-2,libXxf86vm >= 1.1.4-x86_64-2,libcdio >= 0.93-x86_64-1,libdrm >= 2.4.68-x86_64-1,libepoxy >= 1.3.1-x86_64-1,libffi >= 3.2.1-x86_64-1,libpng >= 1.6.23-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,sdl >= 1.2.15-x86_64-4,svgalib >= 1.9.25-x86_64-3,util-linux >= 2.27.1-x86_64-1,zlib >= 1.2.8-x86_64-1
 PACKAGE CONFLICTS:  
 PACKAGE SUGGESTS:  
 PACKAGE DESCRIPTION:
@@ -42,7 +42,7 @@ PACKAGE NAME:  OpenAL-1.17.2-x86_64-2sl.txz
 PACKAGE LOCATION:  ./libraries/OpenAL/1.17.2
 PACKAGE SIZE (compressed):  395 K
 PACKAGE SIZE (uncompressed):  1110 K
-PACKAGE REQUIRED:  bzip2 >= 1.0.6-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gcc >= 5.3.0-x86_64-3,gcc-g++ >= 5.3.0-x86_64-3,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXrender >= 0.9.9-x86_64-1,libffi >= 3.2.1-x86_64-1,libpng >= 1.6.23-x86_64-1,libxcb >= 1.11.1-x86_64-1,qt >= 4.8.7-x86_64-4,util-linux >= 2.28-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE REQUIRED:  bzip2 >= 1.0.6-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXrender >= 0.9.9-x86_64-1,libffi >= 3.2.1-x86_64-1,libpng >= 1.6.23-x86_64-1,libxcb >= 1.11.1-x86_64-1,qt >= 4.8.7-x86_64-4,util-linux >= 2.27.1-x86_64-1,zlib >= 1.2.8-x86_64-1
 PACKAGE CONFLICTS:  
 PACKAGE SUGGESTS:  
 PACKAGE DESCRIPTION:
@@ -97,11 +97,30 @@ freealut:
 freealut: http://www.openal.org/
 freealut:
 
+PACKAGE NAME:  geoclue-0.12.99-x86_64-2sl.txz 
+PACKAGE LOCATION:  ./libraries/geoclue/0.12.99
+PACKAGE SIZE (compressed):  91 K
+PACKAGE SIZE (uncompressed):  510 K
+PACKAGE REQUIRED:  NetworkManager >= 1.2.2-x86_64-2,dbus >= 1.10.8-x86_64-1,dbus-glib >= 0.106-x86_64-1,eudev >= 3.1.5-x86_64-8,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,icu4c >= 56.1-x86_64-2,libffi >= 3.2.1-x86_64-1,libgudev >= 230-x86_64-1,libsoup >= 2.52.2-x86_64-2,libxml2 >= 2.9.4-x86_64-2,sqlite >= 3.13.0-x86_64-1,util-linux >= 2.27.1-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+geoclue: geoclue (Geoinformation Service)
+geoclue:
+geoclue: Geoclue is a modular geoinformation service built on top of 
+geoclue: the D-Bus messaging system. The goal of the Geoclue 
+geoclue: project is to make creating location-aware applications as 
+geoclue: simple as possible. 
+geoclue:
+geoclue: License: GNU Lesser General Public License (LGPL)
+geoclue: Authors: see AUTHORS file
+geoclue: Website: http://www.freedesktop.org/wiki/Software/GeoClue
+
 PACKAGE NAME:  gmtk-1.0.8-x86_64-3sl.txz 
 PACKAGE LOCATION:  ./libraries/gmtk/1.0.8
 PACKAGE SIZE (compressed):  72 K
 PACKAGE SIZE (uncompressed):  370 K
-PACKAGE REQUIRED:  alsa-lib >= 1.1.1-x86_64-2,atk >= 2.18.0-x86_64-1,attr >= 2.4.47-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,expat >= 2.1.0-x86_64-1,flac >= 1.3.1-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,json-c >= 0.12-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXtst >= 1.2.2-x86_64-2,libXxf86vm >= 1.1.4-x86_64-2,libasyncns >= 0.8-x86_64-1,libcap >= 2.22-x86_64-1,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libogg >= 1.3.2-x86_64-1,libpng >= 1.6.23-x86_64-1,libsndfile >= 1.0.26-x86_64-1,libvorbis >= 1.3.5-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,pulseaudio >= 9.0-x86_64-1,util-linux >= 2.28-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE REQUIRED:  alsa-lib >= 1.1.1-x86_64-2,atk >= 2.18.0-x86_64-1,attr >= 2.4.47-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,expat >= 2.1.0-x86_64-1,flac >= 1.3.1-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,json-c >= 0.12-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXtst >= 1.2.2-x86_64-2,libXxf86vm >= 1.1.4-x86_64-2,libasyncns >= 0.8-x86_64-1,libcap >= 2.22-x86_64-1,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libogg >= 1.3.2-x86_64-1,libpng >= 1.6.23-x86_64-1,libsndfile >= 1.0.26-x86_64-1,libvorbis >= 1.3.5-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,pulseaudio >= 9.0-x86_64-1,util-linux >= 2.27.1-x86_64-1,zlib >= 1.2.8-x86_64-1
 PACKAGE CONFLICTS:  
 PACKAGE SUGGESTS:  
 PACKAGE DESCRIPTION:
@@ -110,6 +129,21 @@ gmtk:
 gmtk: Includes:  libgmlib - a set of functions that support non-graphical
 gmtk: operations libgmtk - a set of gtk widgets to use with gnome-mplayer
 gmtk:
+
+PACKAGE NAME:  goffice-0.10.31-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./libraries/goffice/0.10.31
+PACKAGE SIZE (compressed):  1969 K
+PACKAGE SIZE (uncompressed):  12320 K
+PACKAGE REQUIRED:  at-spi2-atk >= 2.18.1-x86_64-1,at-spi2-core >= 2.18.3-x86_64-1,atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,cups >= 2.1.4-x86_64-1,dbus >= 1.10.8-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,ghostscript >= 9.19-x86_64-2,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gmp >= 6.1.1-x86_64-1,gnutls >= 3.4.13-x86_64-1,gtk+3 >= 3.18.9-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,lcms2 >= 2.7-x86_64-2,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libcroco >= 0.6.11-x86_64-1,libdrm >= 2.4.68-x86_64-1,libepoxy >= 1.3.1-x86_64-1,libffi >= 3.2.1-x86_64-1,libgsf >= 1.14.36-x86_64-1,libidn >= 1.30-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,librsvg >= 2.40.16-x86_64-1,libspectre >= 0.2.7-x86_64-1,libtiff >= 4.0.6-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxml2 >= 2.9.4-x86_64-2,libxshmfence >= 1.2-x86_64-2,libxslt >= 1.1.29-x86_64-1,mesa >= 11.2.2-x86_64-1,nettle >= 3.2-x86_64-1,p11-kit >= 0.23.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,util-linux >= 2.27.1-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+goffice: Goffice (GNOME Document-Centric Objects)
+goffice:
+goffice: GOffice is a library of document-centric objects and utilities
+goffice: building on top of GLib  and Gtk+ and used by software such as
+goffice: Gnumeric.
+goffice:
 
 PACKAGE NAME:  imlib2-1.4.9-x86_64-1sl.txz 
 PACKAGE LOCATION:  ./libraries/imlib2/1.4.9
@@ -145,6 +179,25 @@ libupnp: on common Internet standards and specifications such as TCP/IP, HTTP
 libupnp: and XML.
 libupnp:
 
+PACKAGE NAME:  libwebp-0.4.3-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./libraries/libwebp/0.4.3
+PACKAGE SIZE (compressed):  206 K
+PACKAGE SIZE (uncompressed):  570 K
+PACKAGE REQUIRED:  glibc-solibs >= 2.23-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libtiff >= 4.0.6-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+libwebp: libwebp (WebP photo compression library)
+libwebp:
+libwebp: WebP is a method of lossy compression that can be used on
+libwebp: photographic images. The degree of compression is adjustable so a
+libwebp: user can choose the trade-off between file size and image quality.
+libwebp: WebP typically achieves an average of 39% more compression than
+libwebp: JPEG and JPEG 2000, without loss of image quality.
+libwebp:
+libwebp: Homepage: http://code.google.com/speed/webp/
+libwebp:
+
 PACKAGE NAME:  plib-1.8.5-x86_64-2sl.txz 
 PACKAGE LOCATION:  ./libraries/plib/1.8.5
 PACKAGE SIZE (compressed):  634 K
@@ -163,9 +216,9 @@ plib:
 
 PACKAGE NAME:  wxGTK-2.8.12-x86_64-3sl.txz 
 PACKAGE LOCATION:  ./libraries/wxGTK/2.8.12
-PACKAGE SIZE (compressed):  3658 K
+PACKAGE SIZE (compressed):  3656 K
 PACKAGE SIZE (uncompressed):  17620 K
-PACKAGE REQUIRED:  atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gcc >= 5.3.0-x86_64-3,gcc-g++ >= 5.3.0-x86_64-3,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,glu >= 9.0.0-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libtiff >= 4.0.6-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,sdl >= 1.2.15-x86_64-4,svgalib >= 1.9.25-x86_64-3,util-linux >= 2.28-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE REQUIRED:  atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,glu >= 9.0.0-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libtiff >= 4.0.6-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,sdl >= 1.2.15-x86_64-4,svgalib >= 1.9.25-x86_64-3,util-linux >= 2.27.1-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
 PACKAGE CONFLICTS:  
 PACKAGE SUGGESTS:  
 PACKAGE DESCRIPTION:
@@ -181,7 +234,7 @@ PACKAGE NAME:  gnome-mplayer-1.0.8-x86_64-3sl.txz
 PACKAGE LOCATION:  ./multimedia/gnome-mplayer/1.0.8
 PACKAGE SIZE (compressed):  332 K
 PACKAGE SIZE (uncompressed):  1510 K
-PACKAGE REQUIRED:  alsa-lib >= 1.1.1-x86_64-2,atk >= 2.18.0-x86_64-1,attr >= 2.4.47-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,dbus-glib >= 0.106-x86_64-1,expat >= 2.1.0-x86_64-1,flac >= 1.3.1-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gcc-g++ >= 5.3.0-x86_64-3,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gmtk >= 1.0.8-x86_64-3sl,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,icu4c >= 56.1-x86_64-2,json-c >= 0.12-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXScrnSaver >= 1.2.2-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXtst >= 1.2.2-x86_64-2,libXxf86vm >= 1.1.4-x86_64-2,libasyncns >= 0.8-x86_64-1,libcap >= 2.22-x86_64-1,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libgpod >= 0.8.3-x86_64-2,libimobiledevice >= 1.2.0-x86_64-1,libnotify >= 0.7.6-x86_64-1,libogg >= 1.3.2-x86_64-1,libplist >= 1.12-x86_64-1,libpng >= 1.6.23-x86_64-1,libsndfile >= 1.0.26-x86_64-1,libusbmuxd >= 1.0.10-x86_64-1,libvorbis >= 1.3.5-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxml2 >= 2.9.4-x86_64-2,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,openssl-solibs >= 1.0.2h-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,pulseaudio >= 9.0-x86_64-1,sqlite >= 3.13.0-x86_64-1,util-linux >= 2.28-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE REQUIRED:  alsa-lib >= 1.1.1-x86_64-2,atk >= 2.18.0-x86_64-1,attr >= 2.4.47-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,dbus-glib >= 0.106-x86_64-1,expat >= 2.1.0-x86_64-1,flac >= 1.3.1-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gmtk >= 1.0.8-x86_64-3sl,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,icu4c >= 56.1-x86_64-2,json-c >= 0.12-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXScrnSaver >= 1.2.2-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXtst >= 1.2.2-x86_64-2,libXxf86vm >= 1.1.4-x86_64-2,libasyncns >= 0.8-x86_64-1,libcap >= 2.22-x86_64-1,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libgpod >= 0.8.3-x86_64-2,libimobiledevice >= 1.2.0-x86_64-1,libnotify >= 0.7.6-x86_64-1,libogg >= 1.3.2-x86_64-1,libplist >= 1.12-x86_64-1,libpng >= 1.6.23-x86_64-1,libsndfile >= 1.0.26-x86_64-1,libusbmuxd >= 1.0.10-x86_64-1,libvorbis >= 1.3.5-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxml2 >= 2.9.4-x86_64-2,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,openssl-solibs >= 1.0.2h-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,pulseaudio >= 9.0-x86_64-1,sqlite >= 3.13.0-x86_64-1,util-linux >= 2.27.1-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
 PACKAGE CONFLICTS:  
 PACKAGE SUGGESTS:  
 PACKAGE DESCRIPTION:
@@ -194,7 +247,7 @@ gnome-mplayer: Using  DBus  you  can  control  a single or multiple instances of
 gnome-mplayer: GNOME MPlayer from a single command.
 gnome-mplayer:
 
-PACKAGE NAME:  lame-3.99.5-x86_64-3sl.txz 
+PACKAGE NAME:  lame-3.99.5-x86_64-4sl.txz 
 PACKAGE LOCATION:  ./multimedia/lame/3.99.5
 PACKAGE SIZE (compressed):  408 K
 PACKAGE SIZE (uncompressed):  1670 K
@@ -256,9 +309,9 @@ xvidcore:
 
 PACKAGE NAME:  aMule-2.3.1_r10933-x86_64-1sl.txz 
 PACKAGE LOCATION:  ./network/aMule/2.3.1_r10933
-PACKAGE SIZE (compressed):  3824 K
+PACKAGE SIZE (compressed):  3819 K
 PACKAGE SIZE (uncompressed):  17640 K
-PACKAGE REQUIRED:  atk >= 2.18.0-x86_64-1,binutils >= 2.26-x86_64-3,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gcc >= 5.3.0-x86_64-3,gcc-g++ >= 5.3.0-x86_64-3,gd >= 2.2.1-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXpm >= 3.5.11-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libtermcap >= 1.2.3-x86_64-7,libtiff >= 4.0.6-x86_64-1,libupnp >= 1.6.20-x86_64-1sl,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,perl >= 5.22.2-x86_64-1,pixman >= 0.34.0-x86_64-1,readline >= 6.3-x86_64-2,util-linux >= 2.28-x86_64-1,wxGTK >= 2.8.12-x86_64-3sl,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE REQUIRED:  atk >= 2.18.0-x86_64-1,binutils >= 2.26-x86_64-3,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gd >= 2.2.1-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXpm >= 3.5.11-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libtermcap >= 1.2.3-x86_64-7,libtiff >= 4.0.6-x86_64-1,libupnp >= 1.6.20-x86_64-1sl,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,pango >= 1.38.1-x86_64-1,perl >= 5.22.2-x86_64-1,pixman >= 0.34.0-x86_64-1,readline >= 6.3-x86_64-2,util-linux >= 2.27.1-x86_64-1,wxGTK >= 2.8.12-x86_64-3sl,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
 PACKAGE CONFLICTS:  
 PACKAGE SUGGESTS:  
 PACKAGE DESCRIPTION:
@@ -308,6 +361,38 @@ bleachbit: it wipes  clean Adobe Reader, APT, Bash,  Beagle, Chromium, Epiphany
 bleachbit: Firefox, Flash, GIMP, Google Earth, Java, KDE, OpenOffice.org, Opera
 bleachbit: RealPlayer, Second Life viewer, Skype, VIM, XChat, Yum, and more.
 bleachbit:
+
+PACKAGE NAME:  djmount-0.71-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./system/djmount/0.71
+PACKAGE SIZE (compressed):  67 K
+PACKAGE SIZE (uncompressed):  220 K
+PACKAGE REQUIRED:  fuse >= 2.9.5-x86_64-1,glibc-solibs >= 2.23-x86_64-1,libupnp >= 1.6.20-x86_64-1sl
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+djmount: djmount - mount AV device as filesystem
+djmount:
+djmount: This package provides a client for Universal Plug'n'Play (UPnP) 
+djmount: Audio-Visual MediaServers. It discovers all compatible UPnP AV 
+djmount: devices on the network automatically and mounts their media content 
+djmount: as a file system using FUSE. 
+djmount:
+djmount: http://djmount.sourceforge.net/
+djmount: 
+
+PACKAGE NAME:  gslapt-0.5.4c-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./system/gslapt/0.5.4c
+PACKAGE SIZE (compressed):  116 K
+PACKAGE SIZE (uncompressed):  860 K
+PACKAGE REQUIRED:  atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,curl >= 7.49.1-x86_64-1,cyrus-sasl >= 2.1.26-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gpgme >= 1.6.0-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libassuan >= 2.4.2-x86_64-1,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libgpg-error >= 1.23-x86_64-1,libidn >= 1.30-x86_64-1,libpng >= 1.6.23-x86_64-1,libssh2 >= 1.7.0-x86_64-1,libxcb >= 1.11.1-x86_64-1,libxshmfence >= 1.2-x86_64-2,mesa >= 11.2.2-x86_64-1,openldap-client >= 2.4.42-x86_64-1,openssl-solibs >= 1.0.2h-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,slapt-get >= 0.10.2t-x86_64-1sl,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+gslapt: Gslapt (GTK2+ Slapt-Get GUI)
+gslapt:
+gslapt: Gslapt is a Graphic front-end, written in GTK, for  Slapt-get. The
+gslapt: great tool for automatizzate the SlackWare's Packages Installation
+gslapt:
 
 PACKAGE NAME:  p7zip-16.02-x86_64-1sl.txz 
 PACKAGE LOCATION:  ./system/p7zip/16.02

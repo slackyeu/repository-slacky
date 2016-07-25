@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+
+       |-----handy-ruler------------------------------------------------------|
+djmount: djmount - mount AV device as filesystem
+djmount:
+djmount: This package provides a client for Universal Plug'n'Play (UPnP) 
+djmount: Audio-Visual MediaServers. It discovers all compatible UPnP AV 
+djmount: devices on the network automatically and mounts their media content 
+djmount: as a file system using FUSE. 
+djmount:
+djmount:
+djmount:
+djmount: http://djmount.sourceforge.net/
+djmount: 

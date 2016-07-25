@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Quake SDL
+GenericName=Darkplaces port of idsoftware's Quake
+Exec=darkplaces-sdl
+Terminal=false
+Type=Application
+Categories=Game;
+Icon=darkplaces
+StartupNotify=false

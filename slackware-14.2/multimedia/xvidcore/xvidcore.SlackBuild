@@ -2,11 +2,11 @@
 
 # Heavily based on the Slackware 14.1 SlackBuild
 
-# Written by Loris Vincenzi ( http://www.slacky.eu ) 
+# Written by Loris Vincenzi (http://www.slacky.eu)
 # Last build from Savino Pio Liguori aka Blallo ( savino.liguori [@t] gmail D0t c0m )
 
-# Slackware build script for lame
-# Official Site: http://lame.sourceforge.net/
+# Slackware build script for xvidcore
+# Official Site: http://www.xvid.org/index.php
 
 # Redistribution and use of this script, with or without modification, is
 # permitted provided that the following conditions are met:
@@ -31,15 +31,15 @@ set -e
 
 # Basic information.
 
-PKGNAME=lame
-VERSION=${VERSION:-3.99.5}
+PKGNAME=xvidcore
+VERSION=${VERSION:-1.3.4}
 ARCH=${ARCH:-$(uname -m)}
-BUILD=${BUILD:-4}
+BUILD=${BUILD:-1}
 TAG=${TAG:-sl}
-SOURCE="http://downloads.sourceforge.net/project/$PKGNAME/$PKGNAME/3.99/$PKGNAME-$VERSION.tar.gz"
+SOURCE="http://downloads.xvid.org/downloads/$PKGNAME-$VERSION.tar.gz"
 TAR=
-DIR=
-DOCS="API COPYING ChangeLog DEFINES HACKING INSTALL* LICENSE README* STYLEGUIDE TODO USAGE"
+DIR=$PKGNAME/build/generic
+DOCS="AUTHORS ChangeLog* CodingStyle LICENSE README TODO doc/INSTALL"
 SLKFILES=""
 
 # Automatically determine the architecture we're building on:
@@ -85,12 +85,6 @@ cd $DIR
 chown -R root:root .
 chmod -R u+w,go+r-w,a-s .
 
-# Fix for the newer gcc
-# http://www.linuxfromscratch.org/blfs/view/svn/multimedia/lame.html
-case $(uname -m) in
-  i?86) sed -i -e '/xmmintrin\.h/d' configure ;;
-esac
-
 CFLAGS="$CFLAGS $SLKCFLAGS" \
 CXXFLAGS="$CXXFLAGS $SLKCFLAGS" \
 ./configure \
@@ -100,17 +94,17 @@ CXXFLAGS="$CXXFLAGS $SLKCFLAGS" \
   --sysconfdir=/etc \
   --localstatedir=/var \
   --mandir=/usr/man \
-  --disable-static \
+  --program-prefix= \
+  --program-suffix= \
   --build=$CHOST
 make $JOBS
 make install DESTDIR=$PKG
 
+# remove static lib
+rm $PKG/usr/lib$LIBDIRSUFFIX/*.a
+
 # Documentation
 mkdir -p $PKG/usr/doc/$PKGNAME-$VERSION
-
-# move html doc
-mv $PKG/usr/share/doc/$PKGNAME/html $PKG/usr/doc/$PKGNAME-$VERSION
-rm -r $PKG/usr/share/
 
 for DC in $DOCS;do
 	[ -e $DC ]&&cp -r $DC $PKG/usr/doc/$PKGNAME-$VERSION/

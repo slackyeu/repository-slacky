@@ -34,7 +34,7 @@ set -e
 PKGNAME=lame
 VERSION=${VERSION:-3.99.5}
 ARCH=${ARCH:-$(uname -m)}
-BUILD=${BUILD:-4}
+BUILD=${BUILD:-3}
 TAG=${TAG:-sl}
 SOURCE="http://downloads.sourceforge.net/project/$PKGNAME/$PKGNAME/3.99/$PKGNAME-$VERSION.tar.gz"
 TAR=

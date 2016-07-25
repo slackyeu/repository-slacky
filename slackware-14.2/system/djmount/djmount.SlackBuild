@@ -2,11 +2,11 @@
 
 # Heavily based on the Slackware 14.1 SlackBuild
 
-# Written by Loris Vincenzi ( http://www.slacky.eu ) 
-# Last build from Savino Pio Liguori aka Blallo ( savino.liguori [@t] gmail D0t c0m )
+# Written by ilmich < ardutu at gmail dot com >
 
-# Slackware build script for lame
-# Official Site: http://lame.sourceforge.net/
+# Slackware build script for djmount
+# Official Site: http://djmount.sourceforge.net/
+# Patches from https://packages.debian.org/jessie/djmount
 
 # Redistribution and use of this script, with or without modification, is
 # permitted provided that the following conditions are met:
@@ -25,42 +25,27 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Requirements:
+# Requirements: libupnp
 
 set -e
 
-# Basic information.
-
-PKGNAME=lame
-VERSION=${VERSION:-3.99.5}
+PKGNAME=djmount
+VERSION=${VERSION:-0.71}
 ARCH=${ARCH:-$(uname -m)}
-BUILD=${BUILD:-4}
+BUILD=${BUILD:-1}
 TAG=${TAG:-sl}
-SOURCE="http://downloads.sourceforge.net/project/$PKGNAME/$PKGNAME/3.99/$PKGNAME-$VERSION.tar.gz"
+SOURCE="http://downloads.sourceforge.net/project/${PKGNAME}/${PKGNAME}/${VERSION}/${PKGNAME}-${VERSION}.tar.gz"
 TAR=
 DIR=
-DOCS="API COPYING ChangeLog DEFINES HACKING INSTALL* LICENSE README* STYLEGUIDE TODO USAGE"
-SLKFILES=""
+DOCS="AUTHORS README THANKS COPYING ChangeLog INSTALL NEWS TODO"
+SLKFILES="patches/000_djmount.1.diff patches/001-libupnp-1.6.6.diff patches/002-libupnp-1.6.13.diff patches/003-support-fstab-mounting.diff patches/004-avoid-crash-by-using-size_t.diff"
 
-# Automatically determine the architecture we're building on:
 case "$ARCH" in
-	  i?86) export ARCH=i486; SLKCFLAGS="-O2 -march=i486 -mtune=i686"; CHOST="i486-slackware-linux" ;;
+	i?86) export ARCH=i486; SLKCFLAGS="-O2 -march=i486 -mtune=i686"; CHOST="i486-slackware-linux" ;;
 	x86_64) SLKCFLAGS="-O2 -fPIC"; LIBDIRSUFFIX="64"; CHOST="x86_64-slackware-linux" ;;
-	  arm*) export ARCH=arm; SLKCFLAGS="-O2 -march=armv5te"; CHOST="arm-slackware-linux-gnueabi" ;;
-# Unless $ARCH is already set, use uname -m for all other archs:
-		 *) export ARCH=$( uname -m ) ;;
+	arm*) export ARCH=arm; SLKCFLAGS="-O2 -march=armv5te"; CHOST="arm-slackware-linux-gnueabi" ;;
+	*) export ARCH=$( uname -m ) ;;
 esac
-
-# If EULA
-if [ -e EULA.TXT ];then
-	more EULA.TXT
-	echo "Do you accept terms? (yes/[no])"
-	read ACCEPT
-	if [ "$ACCEPT" != "yes" ];then
-		echo; echo "SlackBuild Aborted!!"
-		exit 1
-	fi
-fi
 
 # Do not touch following if not needed
 JOBS=${JOBS:--j2}
@@ -82,57 +67,56 @@ cd $TMP
 tar xvf $CWD/$TAR
 cd $DIR
 
+patch -p1 < $CWD/patches/000_djmount.1.diff
+patch -p1 < $CWD/patches/001-libupnp-1.6.6.diff
+patch -p1 < $CWD/patches/002-libupnp-1.6.13.diff
+patch -p1 < $CWD/patches/003-support-fstab-mounting.diff
+patch -p1 < $CWD/patches/004-avoid-crash-by-using-size_t.diff
+
 chown -R root:root .
 chmod -R u+w,go+r-w,a-s .
 
-# Fix for the newer gcc
-# http://www.linuxfromscratch.org/blfs/view/svn/multimedia/lame.html
-case $(uname -m) in
-  i?86) sed -i -e '/xmmintrin\.h/d' configure ;;
-esac
-
+# Customize as you need
 CFLAGS="$CFLAGS $SLKCFLAGS" \
 CXXFLAGS="$CXXFLAGS $SLKCFLAGS" \
 ./configure \
-  --prefix=/usr \
-  --libdir=/usr/lib$LIBDIRSUFFIX \
-  --docdir=/usr/doc/$PKGNAME-$VERSION \
-  --sysconfdir=/etc \
-  --localstatedir=/var \
-  --mandir=/usr/man \
-  --disable-static \
-  --build=$CHOST
+	--prefix=/usr \
+	--libdir=/usr/lib$LIBDIRSUFFIX \
+	--sysconfdir=/etc \
+	--localstatedir=/var \
+	--mandir=/usr/man \
+	--with-external-libupnp \
+	--build=$CHOST
 make $JOBS
 make install DESTDIR=$PKG
+
+#install man page
+mkdir -p $PKG/usr/man/man1
+cp djmount.1 $PKG/usr/man/man1
 
 # Documentation
 mkdir -p $PKG/usr/doc/$PKGNAME-$VERSION
 
-# move html doc
-mv $PKG/usr/share/doc/$PKGNAME/html $PKG/usr/doc/$PKGNAME-$VERSION
-rm -r $PKG/usr/share/
-
 for DC in $DOCS;do
-	[ -e $DC ]&&cp -r $DC $PKG/usr/doc/$PKGNAME-$VERSION/
+	[ -e $DC ] && cp -r $DC $PKG/usr/doc/$PKGNAME-$VERSION/ || true
 done
 
-mkdir -p $PKG/usr/doc/$PKGNAME-$VERSION/SlackBuild
-
+mkdir -p $PKG/usr/doc/$PKGNAME-$VERSION/SlackBuild/patches
 cd $CWD
 for SB in $PKGNAME.SlackBuild slack-desc doinst.sh doinst.sh.gz EULA.TXT $SLKFILES;do
-	[ -e $SB ]&&cp -r $SB $PKG/usr/doc/$PKGNAME-$VERSION/SlackBuild/$SB
+	[ -e "$SB" ] && cp -r $SB $PKG/usr/doc/$PKGNAME-$VERSION/SlackBuild/$SB || true
 done
 
 for i in man info
 do
     if [ -d $PKG/usr/$i ]; then
-	cd $PKG/usr/$i
-	find . -type f -exec gzip -9 {} \;
-	for file in $( find . -type l ) ; do ln -s $( readlink $file ).gz $file.gz ; rm $file ; done
-	[ "$i" == "info" ] && rm -f dir
+   		cd $PKG/usr/$i
+		find . -type f -exec gzip -9 {} \;
+		for file in $( find . -type l ) ; do ln -s $( readlink $file ).gz $file.gz ; rm $file ; done
+		[ "$i" == "info" ] && rm -f dir
     fi
 done
-
+	
 cd $PKG
 find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true
 find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs -r strip --strip-unneeded 2> /dev/null || true

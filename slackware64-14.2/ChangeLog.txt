@@ -1,3 +1,11 @@
+Mon Jul 25 05:39:34 CEST 2016
+added :: libwebp-0.4.3-x86_64-1sl.txz
+added :: goffice-0.10.31-x86_64-1sl.txz
+added :: geoclue-0.12.99-x86_64-2sl.txz
+added :: djmount-0.71-x86_64-1sl.txz
+added :: gslapt-0.5.4c-x86_64-1sl.txz
+recom :: lame-3.99.5-x86_64-4sl.txz
++--------------------------+
 Thu Jul 21 05:39:11 CEST 2016
 added :: aMule-2.3.1_r10933-x86_64-1sl.txz
 added :: beanstalkd-1.10-x86_64-3sl.txz

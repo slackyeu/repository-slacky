@@ -44,5 +44,5 @@ mesa >= 11.2.2-x86_64-1
 pango >= 1.38.1-x86_64-1
 pixman >= 0.34.0-x86_64-1
 pulseaudio >= 9.0-x86_64-1
-util-linux >= 2.28-x86_64-1
+util-linux >= 2.27.1-x86_64-1
 zlib >= 1.2.8-x86_64-1
