@@ -30,7 +30,7 @@ set -e
 # Basic information. 
 PKGNAME=flashplayer-plugin
 VERSION=${VERSION:-11.2.202.632}
-BUILD=${BUILD:-3}
+BUILD=${BUILD:-2}
 ARCH=${ARCH:-x86_64}
 TAG=${TAG:-sl}	
 SOURCE="http://fpdownload.macromedia.com/get/flashplayer/pdc/$VERSION/install_flash_player_11_linux.x86_64.tar.gz"
@@ -41,7 +41,7 @@ SLKFILES=""
 
 # Automatically determine the architecture we're building on:
 case "$ARCH" in
-	  i?86) export ARCH=i386; SLKCFLAGS="-O2 -march=i486 -mtune=i686"; CHOST="i486-slackware-linux" ;;
+	  i?86) export ARCH=i486; SLKCFLAGS="-O2 -march=i486 -mtune=i686"; CHOST="i486-slackware-linux" ;;
 	x86_64) SLKCFLAGS="-O2 -fPIC"; LIBDIRSUFFIX="64"; CHOST="x86_64-slackware-linux" ;;
 	  arm*) export ARCH=arm; SLKCFLAGS="-O2 -march=armv5te"; CHOST="arm-slackware-linux-gnueabi" ;;
 # Unless $ARCH is already set, use uname -m for all other archs:

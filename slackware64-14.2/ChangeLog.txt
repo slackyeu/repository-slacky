@@ -1,3 +1,6 @@
+Tue Jul 26 05:39:06 CEST 2016
+recom :: flashplayer-plugin-11.2.202.632-x86_64-2sl.txz
++--------------------------+
 Mon Jul 25 05:39:34 CEST 2016
 added :: libwebp-0.4.3-x86_64-1sl.txz
 added :: goffice-0.10.31-x86_64-1sl.txz
