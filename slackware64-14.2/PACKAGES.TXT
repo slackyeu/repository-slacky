@@ -1,8 +1,8 @@
-PACKAGES.TXT;  Tue Jul 26 05:39:06 CEST 2016
+PACKAGES.TXT;  Mon Aug  1 05:39:21 CEST 2016
 
 This file provides details on the packages found on this site
-Total size of all packages (compressed) :  24 MB
-Total size of all packages (uncompressed) :  124 MB
+Total size of all packages (compressed) :  71 MB
+Total size of all packages (uncompressed) :  281 MB
 
 PACKAGE NAME:  darkplaces-20140513-x86_64-2sl.txz 
 PACKAGE LOCATION:  ./games/darkplaces/20140513
@@ -342,6 +342,24 @@ beanstalkd:
 beanstalkd:
 beanstalkd: 
 beanstalkd:
+
+PACKAGE NAME:  skype_static-4.3.0.37-x86_64-4sl.txz 
+PACKAGE LOCATION:  ./network/skype_static/4.3.0.37
+PACKAGE SIZE (compressed):  47689 K
+PACKAGE SIZE (uncompressed):  160510 K
+PACKAGE REQUIRED:  
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+skype_static: Skype (Free Internet telephony)
+skype_static:
+skype_static: Skype is a peer-to-peer Internet telephony network. It competes
+skype_static: against existing open VoIP protocols such as SIP, IAX, and H.323.
+skype_static:
+skype_static: This version include some 32bit libraries
+skype_static:
+skype_static: 
+skype_static:
 
 PACKAGE NAME:  bleachbit-1.12-x86_64-1sl.txz 
 PACKAGE LOCATION:  ./system/bleachbit/1.12

@@ -1,0 +1,163 @@
+
+
+############ DEPENDENCIES FOR skype BINARY FILE ###################
+# ldd /tmp/skype
+#        libXv.so.1 => not found
+#        libXss.so.1 => not found
+#        librt.so.1 => not found
+#        libdl.so.2 => not found
+#        libX11.so.6 => not found
+#        libXext.so.6 => not found
+#        libQtDBus.so.4 => not found
+#        libQtWebKit.so.4 => not found
+#        libQtXml.so.4 => not found
+#        libQtGui.so.4 => not found
+#        libQtNetwork.so.4 => not found
+#        libQtCore.so.4 => not found
+#        libpthread.so.0 => not found
+#        libstdc++.so.6 => not found
+#        libm.so.6 => not found
+#        libgcc_s.so.1 => not found
+#        libc.so.6 => not found
+
+
+
+
+# PACKAGE            SEARCH                  # PROVIDED                     - REQUIRED
+#
+glibc-solibs         ld-2                    # ld-2.23.so                   - (static)
+glibc-solibs         libc-2                  # libc-2.23.so                 - ld-linux.so.2
+glibc-solibs         libpthread-2            # libpthread-2.23.so           - libc.so.6
+glibc-solibs         libdl-2                 # libdl-2.23.so                - libc.so.6
+glibc-solibs         libm-2                  # libm-2.23.so                 - libc.so.6
+glibc-solibs         libresolv-2             # libresolv-2.23.so            - libc.so.6
+glibc-solibs         librt-2                 # librt-2.23.so                - libpthread.so.0
+
+aaa_elflibs          libgcc_s.so.1           # libgcc_s.so.1                - libc.so.6
+aaa_elflibs          libudev.so.1            # libudev.so.1.6.3             - libc.so.6
+aaa_elflibs          libexpat.so.1           # libexpat.so.1.6.0            - libc.so.6
+aaa_elflibs          libz.so.1               # libz.so.1.2.8                - libc.so.6
+aaa_elflibs          libbz2.so.1             # libbz2.so.1.0.6              - libc.so.6
+aaa_elflibs          libjpeg.so.62           # libjpeg.so.62.2.0            - libc.so.6
+aaa_elflibs          libstdc++.so.6          # libstdc++.so.6.0.21          - libm.so.6 libgcc_s.so.1
+aaa_elflibs          libglib-2.0.so.0        # libglib-2.0.so.0.4600.2      - libpthread.so.0
+aaa_elflibs          libgthread-2.0.so.0     # libgthread-2.0.so.0.4600.2   - libglib-2.0.so.0
+aaa_elflibs          liblzma.so.5            # liblzma.so.5.2.2             - libpthread.so.0
+aaa_elflibs          libpng16.so.16          # libpng16.so.16.23.0          - libz.so.1 libm.so.6
+
+libffi               libffi.so.6             # libffi.so.6.0.4              - libc.so.6
+aaa_elflibs          libgobject-2.0.so.0     # libgobject-2.0.so.0.4600.2   - libglib-2.0.so.0 libffi.so.6
+glib2                libgmodule-2.0.so.0     # libgmodule-2.0.so.0.4600.2   - libglib-2.0.so.0 libdl.so.2
+glib2                libgio-2.0.so.0         # libgio-2.0.so.0.4600.2       - libgobject-2.0.so.0 libgmodule-2.0.so.0 libz.so.1 libresolv.so.2
+
+util-linux           libuuid.so.1            # libuuid.so.1.3.0             - libc.so.6
+libxml2              libxml2.so.2            # libxml2.so.2.9.4             - libdl.so.2 libz.so.1 liblzma.so.5 libm.so.6
+libxslt              libxslt.so.1            # libxslt.so.1.1.29            - libxml2.so.2
+icu4c                libicudata.so.56        # libicudata.so.56.1           - (static)
+icu4c                libicuuc.so.56          # libicuuc.so.56.1             - libicudata.so.56 libpthread.so.0 libdl.so.2 libstdc++.so.6
+icu4c                libicui18n.so.56        # libicui18n.so.56.1           - libicuuc.so.56
+sqlite               libsqlite3.so.0         # libsqlite3.so.0.8.6          - libicui18n.so.56
+
+libXau               libXau.so.6             # libXau.so.6.0.0              - libc.so.6
+libXdmcp             libXdmcp.so.6           # libXdmcp.so.6.0.0            - libc.so.6
+libxcb               libxcb.so.1             # libxcb.so.1.1.0              - libXau.so.6 libXdmcp.so.6
+libxcb               libxcb-dri2.so.0        # libxcb-dri2.so.0.0.0         - libxcb.so.1
+libxcb               libxcb-dri3.so.0        # libxcb-dri3.so.0.0.0         - libxcb.so.1
+libxcb               libxcb-glx.so.0         # libxcb-glx.so.0.0.0          - libxcb.so.1
+libxcb               libxcb-present.so.0     # libxcb-present.so.0.0.0      - libxcb.so.1
+libxcb               libxcb-randr.so.0       # libxcb-randr.so.0.1.0        - libxcb.so.1
+libxcb               libxcb-render.so.0      # libxcb-render.so.0.0.0       - libxcb.so.1
+libxcb               libxcb-shape.so.0       # libxcb-shape.so.0.0.0        - libxcb.so.1
+libxcb               libxcb-sync.so.1        # libxcb-sync.so.1.0.0         - libxcb.so.1
+libxcb               libxcb-xfixes.so.0      # libxcb-xfixes.so.0.0.0       - libxcb.so.1
+libX11               libX11.so.6             # libX11.so.6.3.0              - libxcb.so.1 libdl.so.2
+libXext              libXext.so.6            # libXext.so.6.4.0             - libX11.so.6 
+libXv                libXv.so.1              # libXv.so.1.0.0               - libXext.so.6
+libX11               libX11-xcb.so.1         # libX11-xcb.so.1.0.0          - libX11.so.6
+libXfixes            libXfixes.so.3          # libXfixes.so.3.1.0           - libX11.so.6
+libXdamage           libXdamage.so.1         # libXdamage.so.1.1.0          - libXfixes.so.3
+libXrender           libXrender.so.1         # libXrender.so.1.3.0          - libX11.so.6
+libXScrnSaver        libXss.so.1             # libXss.so.1.0.0              - libXext.so.6
+libXxf86vm           libXxf86vm.so.1         # libXxf86vm.so.1.0.0          - libXext.so.6
+
+libICE               libICE.so.6             # libICE.so.6.3.0              - libc.so.6
+libSM                libSM.so.6              # libSM.so.6.0.1               - libICE.so.6 libuuid.so.1
+
+freetype             libfreetype.so.6        # libfreetype.so.6.12.3        - libharfbuzz.so.0 libglib-2.0.so.0 libbz2.so.1 libpng16.so.16
+harfbuzz             libharfbuzz.so.0        # libharfbuzz.so.0.10200.7     - libfreetype.so.6
+fontconfig           libfontconfig.so.1      # libfontconfig.so.1.8.0       - libfreetype.so.6 libexpat.so.1 libpthread.so.0
+
+libdrm               libdrm.so.2             # libdrm.so.2.4.0              - libm.so.6
+libxshmfence         libxshmfence.so.1       # libxshmfence.so.1.0.0        - libc.so.6
+mesa                 libglapi.so.0           # libglapi.so.0.0.0            - libpthread.so.0
+mesa                 libGL.so.1              # libGL.so.1.2.0               - libexpat.so.1 libxcb-dri3.so.0 libxcb-present.so.0 libxcb-randr.so.0 libxcb-xfixes.so.0 libxcb-render.so.0 libxcb-shape.so.0 libxcb-sync.so.1 libxshmfence.so.1 libglapi.so.0 libXdamage.so.1 libX11-xcb.so.1 libxcb-glx.so.0 libxcb-dri2.so.0 libXxf86vm.so.1 libdrm.so.2
+
+orc                  liborc-0.4.so.0         # liborc-0.4.so.0.23.0         - libm.so.6 librt.so.1
+gstreamer            libgstreamer-1.0.so.0   # libgstreamer-1.0.so.0.604.0  - libgobject-2.0.so.0 libgmodule-2.0.so.0 libm.so.6 librt.so.1
+gstreamer            libgstbase-1.0.so.0     # libgstbase-1.0.so.0.604.0    - libgstreamer-1.0.so.0
+gst-plugins-base     libgstapp-1.0.so.0      # libgstapp-1.0.so.0.604.0     - libgstbase-1.0.so.0 
+gst-plugins-base     libgsttag-1.0.so.0      # libgsttag-1.0.so.0.604.0     - libgstbase-1.0.so.0 libz.so.1
+gst-plugins-base     libgstaudio-1.0.so.0    # libgstaudio-1.0.so.0.604.0   - libgsttag-1.0.so.0 liborc-0.4.so.0
+gst-plugins-base     libgstvideo-1.0.so.0    # libgstvideo-1.0.so.0.604.0   - libgstbase-1.0.so.0 liborc-0.4.so.0
+gst-plugins-base     libgstpbutils-1.0.so.0  # libgstpbutils-1.0.so.0.604.0 - libgstvideo-1.0.so.0 libgstaudio-1.0.so.0 libgstreamer-1.0.so.0
+
+
+qt                   libQtCore.so.4          # libQtCore.so.4.8.7           - libz.so.1 libdl.so.2 libgthread-2.0.so.0 librt.so.1 libstdc++.so.6
+qt                   libQtXml.so.4           # libQtXml.so.4.8.7            - libQtCore.so.4
+qt                   libQtDBus.so.4          # libQtDBus.so.4.8.7           - libQtXml.so.4
+qt                   libQtGui.so.4           # libQtGui.so.4.8.7            - libQtCore.so.4 libgobject-2.0.so.0 libSM.so.6 libXrender.so.1 libfontconfig.so.1 libXext.so.6
+qt                   libQtNetwork.so.4       # libQtNetwork.so.4.8.7        - libQtCore.so.4
+qt                   libQtOpenGL.so.4        # libQtOpenGL.so.4.8.7         - libQtGui.so.4 libGL.so.1
+qt                   libQtWebKit.so.4        # libQtWebKit.so.4.10.4        - libXrender.so.1 libjpeg.so.62 libxslt.so.1 libudev.so.1 libgio-2.0.so.0 libgstapp-1.0.so.0 libgstpbutils-1.0.so.0 libsqlite3.so.0 libfontconfig.so.1 libQtOpenGL.so.4 libQtNetwork.so.4 libXext.so.6
+
+################## END OF skype BINARY DEPENDENCIES ########################
+
+#
+# required for network
+glibc-solibs         libnss_files-2   # libnss_files-2.23.so    - libc.so.6
+glibc-solibs         libnss_dns-2     # libnss_dns-2.23.so      - libresolv.so.2
+glibc-solibs         libnsl-2         # libnsl-2.23.so          - libc.so.6
+glibc-solibs         libnss_nis-2     # libnss_nis-2.23.so      - libnsl.so.1 libnss_files.so.2
+glibc-solibs         libnss_compat-2  # libnss_compat-2.23.so   - libnsl.so.1
+openssl-solibs       libcrypto.so.1   # libcrypto.so.1.0.0      - libdl.so.2
+openssl-solibs       libssl.so.1      # libssl.so.1.0.0         - libcrypto.so.1
+
+# Other X requirement
+libXrandr      libXrandr.so.2    # libXrandr.so.2.2.0     - libXrender.so.1
+libXcursor     libXcursor.so.1   # libXcursor.so.1.0.2    - libXfixes.so.3 libXrender.so.1
+libXinerama    libXinerama.so.1  # libXinerama.so.1.0.0   - libXext.so.6
+libXi          libXi.so.6        # libXi.so.6.1.0         - libXext.so.6
+
+v4l-utils     libv4l/$
+v4l-utils     libv4l1.so.0
+v4l-utils     libv4l2.so.0
+v4l-utils     libv4lconvert.so.0
+
+glibc-solibs   gconv/$
+
+# QT Plugins
+aaa_elflibs  libtiff.so.5       # libtiff.so.5.2.4       - liblzma.so.5 libjpeg.so.62 libz.so.1 libm.so.6 
+lcms2        liblcms2.so.2      # liblcms2.so.2.0.7      - libm.so.6 libpthread.so.0
+libmng       libmng.so.2        # libmng.so.2.0.2        - libz.so.1 libjpeg.so.62 liblcms2.so.2
+qt           libQtSvg.so.4      # libQtSvg.so.4.8.7      - libQtGui.so.4
+qt           plugins/$          # require a lot of libQt*
+# Some qt plugin require other Qt dependencies and some other libraries (including mysql and other), 
+# but these plugins should not be useful
+
+
+# Audio 
+dbus             libdbus-1.so.3        # libdbus-1.so.3.14.6     - libpthread.so.0
+aaa_elflibs      libattr.so.1          # libattr.so.1.1.0        - libc.so.6
+aaa_elflibs      libcap.so.2           # libcap.so.2.22          - libattr.so.1
+json-c           libjson-c.so.2        # libjson-c.so.2.0.1      - libc.so.6
+libogg           libogg.so.0           # libogg.so.0.8.2         - libc.so.6
+flac             libFLAC.so.8          # libFLAC.so.8.3.0        - libogg.so.0 libm.so.6
+libvorbis        libvorbis.so.0        # libvorbis.so.0.4.8      - libogg.so.0 libm.so.6
+libvorbis        libvorbisenc.so.2     # libvorbisenc.so.2.0.11  - libvorbis.so.0
+libasyncns       libasyncns.so.0       # libasyncns.so.0.3.1     - libnsl.so.1 libresolv.so.2 libpthread.so.0
+libsndfile       libsndfile.so.1       # libsndfile.so.1.0.26    - libFLAC.so.8 libvorbisenc.so.2
+libXtst          libXtst.so.6          # libXtst.so.6.1.0        - libXi.so.6
+pulseaudio       libpulsecommon-9.0.so # libpulsecommon-9.0.so   - libX11-xcb.so.1 libSM.so.6 libXtst.so.6 libjson-c.so.2 libsndfile.so.1 libasyncns.so.0 libdbus-1.so.3 libcap.so.2 librt.so.1 libm.so.6
+pulseaudio       libpulse.so.0         # libpulse.so.0.20.0      - libpulsecommon-9.0.so
+
+

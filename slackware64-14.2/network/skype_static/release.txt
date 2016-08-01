@@ -1,0 +1,5 @@
+Sun Jul 31 19:18:02 CEST 2016
+Slackware version: 14.2
+Slackware ChangeLog: Thu Jul 28 18:17:17 UTC 2016
+Skype package name: skype_static-4.3.0.37-x86_64-4sl.txz
+58793320e3e613f79cd875cceef28dc5  libraries.txt

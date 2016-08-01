@@ -1,3 +1,6 @@
+Mon Aug  1 05:39:21 CEST 2016
+added :: skype_static-4.3.0.37-x86_64-4sl.txz
++--------------------------+
 Tue Jul 26 05:39:06 CEST 2016
 recom :: flashplayer-plugin-11.2.202.632-x86_64-2sl.txz
 +--------------------------+
