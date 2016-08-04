@@ -1,0 +1,17 @@
+bzip2 >= 1.0.6-x86_64-1
+expat >= 2.1.0-x86_64-1
+fontconfig >= 2.11.1-x86_64-2
+freetype >= 2.6.3-x86_64-1
+glib2 >= 2.46.2-x86_64-2
+glibc-solibs >= 2.23-x86_64-1
+harfbuzz >= 1.2.7-x86_64-1
+libidn >= 1.33-x86_64-1_slack14.2
+libjpeg-turbo >= 1.5.0-x86_64-1
+libpng >= 1.6.23-x86_64-1
+libtiff >= 4.0.6-x86_64-1
+lua >= 5.1.5-x86_64-3sl
+ncurses >= 5.9-x86_64-4
+openssl-solibs >= 1.0.2h-x86_64-1
+readline >= 6.3-x86_64-2
+xz >= 5.2.2-x86_64-1
+zlib >= 1.2.8-x86_64-1

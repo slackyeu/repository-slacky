@@ -1,3 +1,7 @@
+Thu Aug  4 05:39:03 CEST 2016
+added :: podofo-0.9.3-x86_64-1sl.txz
+added :: lua-5.1.5-x86_64-3sl.txz
++--------------------------+
 Mon Aug  1 05:39:21 CEST 2016
 added :: skype_static-4.3.0.37-x86_64-4sl.txz
 +--------------------------+

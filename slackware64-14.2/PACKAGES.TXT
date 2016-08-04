@@ -1,8 +1,26 @@
-PACKAGES.TXT;  Mon Aug  1 05:39:21 CEST 2016
+PACKAGES.TXT;  Thu Aug  4 05:39:03 CEST 2016
 
 This file provides details on the packages found on this site
-Total size of all packages (compressed) :  71 MB
-Total size of all packages (uncompressed) :  281 MB
+Total size of all packages (compressed) :  72 MB
+Total size of all packages (uncompressed) :  287 MB
+
+PACKAGE NAME:  lua-5.1.5-x86_64-3sl.txz 
+PACKAGE LOCATION:  ./development/lua/5.1.5
+PACKAGE SIZE (compressed):  203 K
+PACKAGE SIZE (uncompressed):  1160 K
+PACKAGE REQUIRED:  glibc-solibs >= 2.23-x86_64-1,ncurses >= 5.9-x86_64-4,readline >= 6.3-x86_64-2
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+lua: Lua (The programming Language)
+lua:
+lua: Lua combines simple procedural syntax with powerful data description
+lua: constructs  based  on  associative  arrays  and extensible semantics
+lua: Lua  is dynamically  typed,  runs  by  interpreting  bytecode  for a
+lua: register-based  virtual machine, and has automatic memory management
+lua: with   incremental   garbage   collection,  making  it   ideal   for
+lua: configuration, scripting, and rapid prototyping.
+lua:
 
 PACKAGE NAME:  darkplaces-20140513-x86_64-2sl.txz 
 PACKAGE LOCATION:  ./games/darkplaces/20140513
@@ -213,6 +231,25 @@ plib: rendering, a simple Windowing library, a game scripting
 plib: language, a GUI, networking, 3D math library and a collection
 plib: of handy utility functions.
 plib:
+
+PACKAGE NAME:  podofo-0.9.3-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./libraries/podofo/0.9.3
+PACKAGE SIZE (compressed):  775 K
+PACKAGE SIZE (uncompressed):  4580 K
+PACKAGE REQUIRED:  bzip2 >= 1.0.6-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,libidn >= 1.33-x86_64-1_slack14.2,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libtiff >= 4.0.6-x86_64-1,lua >= 5.1.5-x86_64-3sl,ncurses >= 5.9-x86_64-4,openssl-solibs >= 1.0.2h-x86_64-1,readline >= 6.3-x86_64-2,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+podofo: PoDoFo (a library to work with the PDF file format)
+podofo:
+podofo: The name comes from the first letter of PDF (Portable Document Format)
+podofo: The PoDoFo library is a free, portable C++ library which includes
+podofo: classes to parse PDF files and  modify their contents into memory
+podofo: The parser can also be used to extract information from a PDF file
+podofo: (for example, the parser could be used in a PDF viewer).
+podofo:
+podofo: Homepage: http://podofo.sourceforge.net/
+podofo:
 
 PACKAGE NAME:  wxGTK-2.8.12-x86_64-3sl.txz 
 PACKAGE LOCATION:  ./libraries/wxGTK/2.8.12
