@@ -1,3 +1,7 @@
+Sat Aug  6 05:39:29 CEST 2016
+added :: scribus-1.4.6-x86_64-1sl.txz
+added :: dia-0.97.3-x86_64-1sl.txz
++--------------------------+
 Thu Aug  4 05:39:03 CEST 2016
 added :: podofo-0.9.3-x86_64-1sl.txz
 added :: lua-5.1.5-x86_64-3sl.txz
