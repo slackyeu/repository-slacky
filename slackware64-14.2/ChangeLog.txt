@@ -1,3 +1,7 @@
+Sun Aug  7 05:39:09 CEST 2016
+added :: osmo-0.2.14-x86_64-1sl.txz
+added :: webkitgtk-2.4.11-x86_64-1sl.txz
++--------------------------+
 Sat Aug  6 05:39:29 CEST 2016
 added :: scribus-1.4.6-x86_64-1sl.txz
 added :: dia-0.97.3-x86_64-1sl.txz

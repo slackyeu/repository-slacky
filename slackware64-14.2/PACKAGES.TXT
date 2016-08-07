@@ -1,8 +1,8 @@
-PACKAGES.TXT;  Sat Aug  6 05:39:29 CEST 2016
+PACKAGES.TXT;  Sun Aug  7 05:39:09 CEST 2016
 
 This file provides details on the packages found on this site
-Total size of all packages (compressed) :  144 MB
-Total size of all packages (uncompressed) :  423 MB
+Total size of all packages (compressed) :  154 MB
+Total size of all packages (uncompressed) :  476 MB
 
 PACKAGE NAME:  lua-5.1.5-x86_64-3sl.txz 
 PACKAGE LOCATION:  ./development/lua/5.1.5
@@ -251,6 +251,23 @@ podofo:
 podofo: Homepage: http://podofo.sourceforge.net/
 podofo:
 
+PACKAGE NAME:  webkitgtk-2.4.11-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./libraries/webkitgtk/2.4.11
+PACKAGE SIZE (compressed):  9926 K
+PACKAGE SIZE (uncompressed):  52280 K
+PACKAGE REQUIRED:  atk >= 2.18.0-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,dbus-glib >= 0.106-x86_64-1,enchant >= 1.6.0-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,geoclue >= 0.12.99-x86_64-2sl,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gst-plugins-base >= 1.6.4-x86_64-1,gstreamer >= 1.6.4-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,harfbuzz >= 1.2.7-x86_64-1,icu4c >= 56.1-x86_64-2,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXt >= 1.1.5-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libgcrypt >= 1.7.1-x86_64-1,libgpg-error >= 1.23-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libpng >= 1.6.23-x86_64-1,libsecret >= 0.18.5-x86_64-1,libsoup >= 2.52.2-x86_64-2,libwebp >= 0.4.3-x86_64-1sl,libxcb >= 1.11.1-x86_64-1,libxml2 >= 2.9.4-x86_64-2,libxshmfence >= 1.2-x86_64-2,libxslt >= 1.1.29-x86_64-1,mesa >= 11.2.2-x86_64-1,orc >= 0.4.24-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,sqlite >= 3.13.0-x86_64-1,util-linux >= 2.27.1-x86_64-1,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+webkitgtk: webkitgtk (Open source web browser engine)
+webkitgtk:
+webkitgtk: webkitgtk is an open source web  browser engine. webkitgtk is also the
+webkitgtk: name of the Mac OS X system framework version of the engine that's used
+webkitgtk: by Safari Dashboard, Mail, and many other OS X applications.
+webkitgtk: webkitgtk's HTML and  JavaScript code began as a branch of the KHTMLù
+webkitgtk: and KJS libraries from KDE.
+webkitgtk:
+
 PACKAGE NAME:  wxGTK-2.8.12-x86_64-3sl.txz 
 PACKAGE LOCATION:  ./libraries/wxGTK/2.8.12
 PACKAGE SIZE (compressed):  3656 K
@@ -417,6 +434,24 @@ dia: possible to add support for new shapes by writing simple XML files,
 dia: using a subset of SVG to draw the shape.
 dia:
 dia: Homepage: http://live.gnome.org/Dia
+
+PACKAGE NAME:  osmo-0.2.14-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./office/osmo/0.2.14
+PACKAGE SIZE (compressed):  511 K
+PACKAGE SIZE (uncompressed):  2160 K
+PACKAGE REQUIRED:  acl >= 2.2.52-x86_64-1,atk >= 2.18.0-x86_64-1,attr >= 2.4.47-x86_64-1,bzip2 >= 1.0.6-x86_64-1,cairo >= 1.14.6-x86_64-2,dbus >= 1.10.8-x86_64-1,dbus-glib >= 0.106-x86_64-1,enchant >= 1.6.0-x86_64-1,expat >= 2.1.0-x86_64-1,fontconfig >= 2.11.1-x86_64-2,freetype >= 2.6.3-x86_64-1,gdk-pixbuf2 >= 2.32.3-x86_64-1,geoclue >= 0.12.99-x86_64-2sl,glib2 >= 2.46.2-x86_64-2,glibc-solibs >= 2.23-x86_64-1,gst-plugins-base >= 1.6.4-x86_64-1,gstreamer >= 1.6.4-x86_64-1,gtk+2 >= 2.24.30-x86_64-1,gtkspell >= 2.0.16-x86_64-3,harfbuzz >= 1.2.7-x86_64-1,icu4c >= 56.1-x86_64-2,libICE >= 1.0.9-x86_64-2,libSM >= 1.2.2-x86_64-2,libX11 >= 1.6.3-x86_64-2,libXau >= 1.0.8-x86_64-2,libXcomposite >= 0.4.4-x86_64-2,libXcursor >= 1.1.14-x86_64-2,libXdamage >= 1.1.4-x86_64-2,libXdmcp >= 1.1.2-x86_64-2,libXext >= 1.3.3-x86_64-2,libXfixes >= 5.0.2-x86_64-1,libXi >= 1.7.6-x86_64-1,libXinerama >= 1.1.3-x86_64-2,libXrandr >= 1.5.0-x86_64-1,libXrender >= 0.9.9-x86_64-1,libXt >= 1.1.5-x86_64-1,libXxf86vm >= 1.1.4-x86_64-2,libarchive >= 3.2.1-x86_64-1,libdrm >= 2.4.68-x86_64-1,libffi >= 3.2.1-x86_64-1,libgcrypt >= 1.7.1-x86_64-1,libgpg-error >= 1.23-x86_64-1,libical >= 2.0.0-x86_64-1,libjpeg-turbo >= 1.5.0-x86_64-1,libnotify >= 0.7.6-x86_64-1,libpng >= 1.6.23-x86_64-1,libsecret >= 0.18.5-x86_64-1,libsoup >= 2.52.2-x86_64-2,libwebp >= 0.4.3-x86_64-1sl,libxcb >= 1.11.1-x86_64-1,libxml2 >= 2.9.4-x86_64-2,libxshmfence >= 1.2-x86_64-2,libxslt >= 1.1.29-x86_64-1,lzo >= 2.09-x86_64-1,mesa >= 11.2.2-x86_64-1,nettle >= 3.2-x86_64-1,orc >= 0.4.24-x86_64-1,pango >= 1.38.1-x86_64-1,pixman >= 0.34.0-x86_64-1,sqlite >= 3.13.0-x86_64-1,util-linux >= 2.27.1-x86_64-1,webkitgtk >= 2.4.11-x86_64-1sl,xz >= 5.2.2-x86_64-1,zlib >= 1.2.8-x86_64-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+osmo: Osmo (Handy Personal Organizer)
+osmo:
+osmo: Osmo is a handy personal organizer, which includes calendar, tasks
+osmo: manager, address book and notes modules. It was designed to be a
+osmo: small, easy to use and good looking PIM tool to help to manage
+osmo: personal information.
+osmo:
+osmo: Homepage: http://clayo.org/osmo/
+osmo:
 
 PACKAGE NAME:  scribus-1.4.6-x86_64-1sl.txz 
 PACKAGE LOCATION:  ./office/scribus/1.4.6
