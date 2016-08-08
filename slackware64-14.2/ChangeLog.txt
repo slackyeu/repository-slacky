@@ -1,3 +1,8 @@
+Mon Aug  8 05:39:15 CEST 2016
+added :: webkitgtk3-2.4.11-x86_64-1sl.txz
+added :: sshfs-fuse-2.8-x86_64-1sl.txz
+added :: snapraid-10.0-x86_64-2sl.txz
++--------------------------+
 Sun Aug  7 05:39:09 CEST 2016
 added :: osmo-0.2.14-x86_64-1sl.txz
 added :: webkitgtk-2.4.11-x86_64-1sl.txz

@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description. Line
+# up the first '|' above the ':' following the base package name, and the '|' 
+# on the right side marks the last column you can put a character in. You must
+# make exactly 11 lines for the formatting to be correct. It's also customary
+# to leave one space after the ':'.
+
+          |----handy-ruler----------------------------------------------------------|
+webkitgtk3: webkitgtk (Open source web browser engine)
+webkitgtk3:
+webkitgtk3: webkitgtk is an open source web  browser engine. webkitgtk is also the
+webkitgtk3: name of the Mac OS X system framework version of the engine that's used
+webkitgtk3: by Safari Dashboard, Mail, and many other OS X applications.
+webkitgtk3: webkitgtk's HTML and  JavaScript code began as a branch of the KHTMLù
+webkitgtk3: and KJS libraries from KDE.
+webkitgtk3:
+webkitgtk3: This builds the GTK3 interface
+webkitgtk3:
+webkitgtk3:
