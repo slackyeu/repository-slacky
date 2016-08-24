@@ -1,4 +1,4 @@
-PACKAGES.TXT;  Mon Aug  8 05:39:15 CEST 2016
+PACKAGES.TXT;  Wed Aug 24 05:39:03 CEST 2016
 
 This file provides details on the packages found on this site
 Total size of all packages (compressed) :  178 MB
@@ -524,6 +524,26 @@ djmount: as a file system using FUSE.
 djmount:
 djmount: http://djmount.sourceforge.net/
 djmount: 
+
+PACKAGE NAME:  gpart-0.3-x86_64-1sl.txz 
+PACKAGE LOCATION:  ./system/gpart/0.3
+PACKAGE SIZE (compressed):  35 K
+PACKAGE SIZE (uncompressed):  110 K
+PACKAGE REQUIRED:  
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+gpart: Gpart (Partition Table Recovery Tool)
+gpart:
+gpart: Gpart is a tool which tries to guess the primary partition table of a
+gpart: PC-type  disk  in  case the  primary  partition table  in sector 0 is
+gpart: damaged, incorrect or deleted.
+gpart:
+gpart: It is also good  at  finding  and listing the types, locations, and
+gpart: sizes of inadvertently-deleted partitions, both primary and logical
+gpart: 
+gpart: Currently support many filesystem, and many partition model.
+gpart:
 
 PACKAGE NAME:  gslapt-0.5.4c-x86_64-1sl.txz 
 PACKAGE LOCATION:  ./system/gslapt/0.5.4c
