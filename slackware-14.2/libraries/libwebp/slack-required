@@ -1,0 +1,6 @@
+glibc-solibs >= 2.23-i586-1
+libjpeg-turbo >= 1.5.0-i586-1
+libpng >= 1.6.23-i586-1
+libtiff >= 4.0.6-i586-1
+xz >= 5.2.2-i586-1
+zlib >= 1.2.8-i486-1

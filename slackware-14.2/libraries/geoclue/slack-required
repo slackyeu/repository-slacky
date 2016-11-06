@@ -1,0 +1,15 @@
+dbus >= 1.10.8-i586-1
+dbus-glib >= 0.106-i586-1
+eudev >= 3.1.5-i586-8
+glib2 >= 2.46.2-i586-2
+glibc-solibs >= 2.23-i586-1
+icu4c >= 56.1-i586-2
+libffi >= 3.2.1-i486-1
+libgudev >= 230-i586-1
+libsoup >= 2.52.2-i586-2
+libxml2 >= 2.9.4-i586-2
+mozilla-nss >= 3.23-i586-1
+sqlite >= 3.13.0-i586-1
+util-linux >= 2.27.1-i586-1
+xz >= 5.2.2-i586-1
+zlib >= 1.2.8-i486-1

@@ -1,8 +1,8 @@
-PACKAGES.TXT;  Mon Jul 25 05:39:05 CEST 2016
+PACKAGES.TXT;  Sun Nov  6 05:39:08 CET 2016
 
 This file provides details on the packages found on this site
-Total size of all packages (compressed) :  22 MB
-Total size of all packages (uncompressed) :  102 MB
+Total size of all packages (compressed) :  32 MB
+Total size of all packages (uncompressed) :  153 MB
 
 PACKAGE NAME:  darkplaces-20140513-i486-2sl.txz 
 PACKAGE LOCATION:  ./games/darkplaces/20140513
@@ -97,6 +97,25 @@ freealut:
 freealut: http://www.openal.org/
 freealut:
 
+PACKAGE NAME:  geoclue-0.12.99-i586-2sl.txz 
+PACKAGE LOCATION:  ./libraries/geoclue/0.12.99
+PACKAGE SIZE (compressed):  92 K
+PACKAGE SIZE (uncompressed):  480 K
+PACKAGE REQUIRED:  dbus >= 1.10.8-i586-1,dbus-glib >= 0.106-i586-1,eudev >= 3.1.5-i586-8,glib2 >= 2.46.2-i586-2,glibc-solibs >= 2.23-i586-1,icu4c >= 56.1-i586-2,libffi >= 3.2.1-i486-1,libgudev >= 230-i586-1,libsoup >= 2.52.2-i586-2,libxml2 >= 2.9.4-i586-2,mozilla-nss >= 3.23-i586-1,sqlite >= 3.13.0-i586-1,util-linux >= 2.27.1-i586-1,xz >= 5.2.2-i586-1,zlib >= 1.2.8-i486-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+geoclue: geoclue (Geoinformation Service)
+geoclue:
+geoclue: Geoclue is a modular geoinformation service built on top of 
+geoclue: the D-Bus messaging system. The goal of the Geoclue 
+geoclue: project is to make creating location-aware applications as 
+geoclue: simple as possible. 
+geoclue:
+geoclue: License: GNU Lesser General Public License (LGPL)
+geoclue: Authors: see AUTHORS file
+geoclue: Website: http://www.freedesktop.org/wiki/Software/GeoClue
+
 PACKAGE NAME:  gmtk-1.0.8-i486-3sl.txz 
 PACKAGE LOCATION:  ./libraries/gmtk/1.0.8
 PACKAGE SIZE (compressed):  73 K
@@ -145,6 +164,25 @@ libupnp: on common Internet standards and specifications such as TCP/IP, HTTP
 libupnp: and XML.
 libupnp:
 
+PACKAGE NAME:  libwebp-0.4.3-i586-1sl.txz 
+PACKAGE LOCATION:  ./libraries/libwebp/0.4.3
+PACKAGE SIZE (compressed):  215 K
+PACKAGE SIZE (uncompressed):  590 K
+PACKAGE REQUIRED:  glibc-solibs >= 2.23-i586-1,libjpeg-turbo >= 1.5.0-i586-1,libpng >= 1.6.23-i586-1,libtiff >= 4.0.6-i586-1,xz >= 5.2.2-i586-1,zlib >= 1.2.8-i486-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+libwebp: libwebp (WebP photo compression library)
+libwebp:
+libwebp: WebP is a method of lossy compression that can be used on
+libwebp: photographic images. The degree of compression is adjustable so a
+libwebp: user can choose the trade-off between file size and image quality.
+libwebp: WebP typically achieves an average of 39% more compression than
+libwebp: JPEG and JPEG 2000, without loss of image quality.
+libwebp:
+libwebp: Homepage: http://code.google.com/speed/webp/
+libwebp:
+
 PACKAGE NAME:  plib-1.8.5-i486-2sl.txz 
 PACKAGE LOCATION:  ./libraries/plib/1.8.5
 PACKAGE SIZE (compressed):  621 K
@@ -160,6 +198,23 @@ plib: rendering, a simple Windowing library, a game scripting
 plib: language, a GUI, networking, 3D math library and a collection
 plib: of handy utility functions.
 plib:
+
+PACKAGE NAME:  webkitgtk-2.4.11-i586-1sl.txz 
+PACKAGE LOCATION:  ./libraries/webkitgtk/2.4.11
+PACKAGE SIZE (compressed):  10132 K
+PACKAGE SIZE (uncompressed):  50710 K
+PACKAGE REQUIRED:  atk >= 2.18.0-i586-1,bzip2 >= 1.0.6-i486-1,cairo >= 1.14.6-i586-2,dbus >= 1.10.8-i586-1,dbus-glib >= 0.106-i586-1,enchant >= 1.6.0-i486-1,expat >= 2.1.0-i486-1,fontconfig >= 2.11.1-i486-2,freetype >= 2.6.3-i586-1,gdk-pixbuf2 >= 2.32.3-i586-1,geoclue >= 0.12.99-i586-2sl,glib2 >= 2.46.2-i586-2,glibc-solibs >= 2.23-i586-1,gst-plugins-base >= 1.6.4-i586-1,gstreamer >= 1.6.4-i586-1,gtk+2 >= 2.24.30-i586-1,harfbuzz >= 1.2.7-i586-1,icu4c >= 56.1-i586-2,libICE >= 1.0.9-i586-2,libSM >= 1.2.2-i586-2,libX11 >= 1.6.3-i586-2,libXau >= 1.0.8-i586-2,libXcomposite >= 0.4.4-i586-2,libXcursor >= 1.1.14-i586-2,libXdamage >= 1.1.4-i586-2,libXdmcp >= 1.1.2-i586-2,libXext >= 1.3.3-i586-2,libXfixes >= 5.0.2-i586-1,libXi >= 1.7.6-i586-1,libXinerama >= 1.1.3-i586-2,libXrandr >= 1.5.0-i586-1,libXrender >= 0.9.9-i586-1,libXt >= 1.1.5-i586-1,libXxf86vm >= 1.1.4-i586-2,libdrm >= 2.4.68-i586-1,libffi >= 3.2.1-i486-1,libgcrypt >= 1.7.1-i586-1,libgpg-error >= 1.23-i586-1,libjpeg-turbo >= 1.5.0-i586-1,libpng >= 1.6.23-i586-1,libsecret >= 0.18.5-i586-1,libsoup >= 2.52.2-i586-2,libwebp >= 0.4.3-i586-1sl,libxcb >= 1.11.1-i586-1,libxml2 >= 2.9.4-i586-2,libxshmfence >= 1.2-i586-2,libxslt >= 1.1.29-i586-1,mesa >= 11.2.2-i586-1,orc >= 0.4.24-i586-1,pango >= 1.38.1-i586-1,pixman >= 0.34.0-i586-1,sqlite >= 3.13.0-i586-1,util-linux >= 2.27.1-i586-1,xz >= 5.2.2-i586-1,zlib >= 1.2.8-i486-1
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+webkitgtk: webkitgtk (Open source web browser engine)
+webkitgtk:
+webkitgtk: webkitgtk is an open source web  browser engine. webkitgtk is also the
+webkitgtk: name of the Mac OS X system framework version of the engine that's used
+webkitgtk: by Safari Dashboard, Mail, and many other OS X applications.
+webkitgtk: webkitgtk's HTML and  JavaScript code began as a branch of the KHTMLù
+webkitgtk: and KJS libraries from KDE.
+webkitgtk:
 
 PACKAGE NAME:  wxGTK-2.8.12-i486-3sl.txz 
 PACKAGE LOCATION:  ./libraries/wxGTK/2.8.12

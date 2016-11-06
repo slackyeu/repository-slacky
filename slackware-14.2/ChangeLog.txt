@@ -1,3 +1,8 @@
+Sun Nov  6 05:39:08 CET 2016
+added :: geoclue-0.12.99-i586-2sl.txz
+added :: libwebp-0.4.3-i586-1sl.txz
+added :: webkitgtk-2.4.11-i586-1sl.txz
++--------------------------+
 Mon Jul 25 05:39:05 CEST 2016
 added :: twolame-0.3.13-i486-4sl.txz
 added :: x264-20160613-i486-1sl.txz
